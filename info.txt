@@ -14,7 +14,8 @@ FAQ
 - Tipografia correspondiente
 
 CONTACT US
-- Hoy lo hago, 8 de nov
+- centrar boton
+- config del formulario
 
 FOOTER
 - links a faq's (YA esta)

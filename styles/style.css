@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------*/
 
 #contact {
-  background-image:  url("../47074-ai.svg");  
+  background-image:  url("../images/47074-ai.svg");  
   color: #fff;
 
   }
@@ -152,56 +152,99 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 20px;
 }
 
-#contact .form #sendmessage {
-  color: #bd2db1;
-  border: 1px solid #bd2db1;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
+.container{
+  max-width: 800px;
+  width: 800px;
+  padding: 25px 40px 10px 220px;
 }
 
-#contact .form #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
+.container form .form-row{
+  display: flex;
+  margin: 32px 0;
 }
-
-#contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
+form .form-row .input-data{
+  width: 100%;
+  height: 40px;
+  margin: 0 20px;
+  position: relative;
+}
+form .form-row .textarea{
+  height: 70px;
+}
+.input-data input,
+.textarea textarea {
   display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid #dc990f;
 }
-
-#contact .form .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-#contact .form input, #contact .form textarea {
-  border-radius: 0;
-  box-shadow: none;
+.input-data input:focus ~ label, .textarea textarea:focus ~ label,
+.input-data input:valid ~ label, .textarea textarea:valid ~ label{
+  transform: translateY(-13px);
   font-size: 14px;
+  color: #004F53;
+  padding: 0px 10px;
 }
 
-#contact .form button[type="submit"] {
-  background: linear-gradient(45deg, #bd2db1, #1dc8cd);
-  border: 0;
-  border-radius: 20px;
-  padding: 8px 30px;
+.input-data label{
+  position: absolute;
+  pointer-events: none;
+  bottom: 10px;
+  font-size: 16px;
+}
+
+.textarea label{
+  width: 70%;
+  bottom: 40px;
+  background: #fff;
+}
+
+.submit-btn .input-data{
+  overflow: hidden;
+  height: 45px!important;
+  width: 25%!important;
+}
+
+.submit-btn .input-data .inner{
+  height: 100%;
+  width: 300%;
+  position: absolute;
+  left: -100%;
+  background-color:#dc990f ;
+ 
+}
+
+.submit-btn .input-data input{
+  background: none;
+  border: none;
   color: #fff;
-}
-
-#contact .form button[type="submit"]:hover {
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   cursor: pointer;
+  position: relative;
 }
 
+/* @media (max-width: 700px) {
+  .container .text{
+    font-size: 30px;
+  }
+  .container form{
+    padding: 10px 0 0 0;
+  }
+  .container form .form-row{
+    display: block;
+  }
+  form .form-row .input-data{
+    margin: 35px 0!important;
+  }
+  .submit-btn .input-data{
+    width: 40%!important;
+  }
+} */
 
 /*--------------------------------------------------------------
 # Footer
