@@ -1,0 +1,1109 @@
+[33mcommit 9fac175d02b9952e0d6c527389d737f33219311c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Daiana <daianafigalo@gmail.com>
+Date:   Tue Nov 8 10:27:04 2022 -0300
+
+    creacion de archivos y contenido
+
+[1mdiff --git a/about.html b/about.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..dde706d[m
+[1m--- /dev/null[m
+[1m+++ b/about.html[m
+[36m@@ -0,0 +1,80 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html>[m
+[32m+[m
+[32m+[m[32m<head>[m
+[32m+[m[32m  <meta charset="utf-8">[m
+[32m+[m[32m  <title>FeelingWood</title>[m
+[32m+[m[32m  <meta name="viewport" content="width=device-width, initial-scale=1">[m
+[32m+[m[32m  <link rel="stylesheet" type="text/css" href="styles/style.css">[m
+[32m+[m[32m</head>[m
+[32m+[m
+[32m+[m[32m<body>[m
+[32m+[m[32m  <header>[m
+[32m+[m[32m    <div id="nav">[m
+[32m+[m[32m      <tr>[m
+[32m+[m[32m        <th> <a><img src="LogoWhite.png" /></a></th>[m
+[32m+[m[32m        <th><a href="index.html">Home</a></th>[m
+[32m+[m[32m        <th><a href="products.html">Products</a></th>[m
+[32m+[m[32m        <th><a href="about.html">About Us</a></th>[m
+[32m+[m[32m        <th><a href="faq.html">FAQ</a></th>[m
+[32m+[m[32m        <th><a href="contact.html">Contact Us</a></th>[m
+[32m+[m[32m      </tr>[m
+[32m+[m[32m    </div>[m
+[32m+[m
+[32m+[m[32m  </header>[m
+[32m+[m
+[32m+[m[32m  <main>[m
+[32m+[m[32m    <div id="background"><h3>ABOUT US</h3></div>[m
+[32m+[m[32m    <!--==========================[m
+[32m+[m[32m      Our History[m
+[32m+[m[32m    ============================-->[m
+[32m+[m[32m    <section id="about" class="section-bg">[m
+[32m+[m[32m      <div class="container-fluid">[m
+[32m+[m[32m        <div class="row">[m
+[32m+[m[41m           [m
+[32m+[m[41m            [m
+[32m+[m[32m          <div class="col-lg-6 content">[m
+[32m+[m[32m            <h2><strong>[m
+[32m+[m[32m                Our history</strong></h2>[m
+[32m+[m[32m            <br>[m
+[32m+[m[32m            <p>We are hard core working people with more than four decades of experience in the industry.[m
+[32m+[m
+[32m+[m[32m                We grew up looking at how cabinetmakers by trade shaped wood as if it were a work of art, building eternal wooden furniture and decorative pieces that are still today a living testimony of the past.</p>[m
+[32m+[m[32m     <p>Inspired by their craft and work (moulding the raw materials, creating a design, crafting the piece), we developed our very own recipe to keep the trade alive with a contemporary twist: we combine high technology and innovations with artisanal work and craftsmanship, through a careful and delicate worldwide wood selection process.</p>[m
+[32m+[m[32m        <p>They all come from implanted forests or have been removed by sustainable forest maintenance procedures (considering energy optimization and the best utilization of the raw materials).</p>[m
+[32m+[m[32m    <p>We are deeply committed to the creation of unique spaces, so that they are warm, sustainable and also eternal… just like those cabinetmaker's pieces that initiated us in the fascinating world of exotic woods.</p>[m
+[32m+[m[32m    </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </section>[m
+[32m+[m[32m    <!-- Your privacy -->[m
+[32m+[m
+[32m+[m
+[32m+[m[32m    <!--==========================[m
+[32m+[m[32m      Footer[m
+[32m+[m[32m============================-->[m
+[32m+[m[32m    <section id="footer">[m
+[32m+[m[32m      <div class="container">[m
+[32m+[m[32m        <div class="row" data-aos="fade-up">[m
+[32m+[m[32m          <div class="col-lg-4 col-md-4">[m
+[32m+[m[32m            <div class="footer">[m
+[32m+[m[32m              <div class="left item">[m
+[32m+[m[32m                <a href=""><img src="logoWhiteMini.webp" class="ui image left aligned" id="logo"></a>[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m              <div class="footer-links">[m
+[32m+[m[32m                <a href="yourPrivacy.html">Your privacy</a>[m
+[32m+[m[32m                <br>[m
+[32m+[m[32m                <a href="termsOfService.html">Terms of service</a>[m
+[32m+[m[32m                <br>[m
+[32m+[m[32m                <a href="returnPolicy.html">Return policy</a>[m
+[32m+[m[32m                <!-- bloque de email para que manden para mas informacion -->[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </section><!-- #Footer -->[m
+[32m+[m[32m  </main>[m
+[32m+[m[32m</body>[m
+[32m+[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/assets.code-workspace b/assets.code-workspace[m
+[1mnew file mode 100644[m
+[1mindex 0000000..24d3076[m
+[1m--- /dev/null[m
+[1m+++ b/assets.code-workspace[m
+[36m@@ -0,0 +1,25 @@[m
+[32m+[m[32m{[m
+[32m+[m	[32m"folders": [[m
+[32m+[m		[32m{[m
+[32m+[m			[32m"path": "../../../Descargas/assets"[m
+[32m+[m		[32m},[m
+[32m+[m		[32m{[m
+[32m+[m			[32m"path": "../../../Descargas/config"[m
+[32m+[m		[32m},[m
+[32m+[m		[32m{[m
+[32m+[m			[32m"path": "../../../Descargas/layout"[m
+[32m+[m		[32m},[m
+[32m+[m		[32m{[m
+[32m+[m			[32m"path": "../../../Descargas/locales"[m
+[32m+[m		[32m},[m
+[32m+[m		[32m{[m
+[32m+[m			[32m"path": "../../../Descargas/sections"[m
+[32m+[m		[32m},[m
+[32m+[m		[32m{[m
+[32m+[m			[32m"path": "../../../Descargas/snippets"[m
+[32m+[m		[32m},[m
+[32m+[m		[32m{[m
+[32m+[m			[32m"path": "../../../Descargas/templates"[m
+[32m+[m		[32m}[m
+[32m+[m	[32m][m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/contact.html b/contact.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/faq.html b/faq.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8413171[m
+[1m--- /dev/null[m
+[1m+++ b/faq.html[m
+[36m@@ -0,0 +1,94 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html>[m
+[32m+[m
+[32m+[m[32m<head>[m
+[32m+[m[32m  <meta charset="utf-8">[m
+[32m+[m[32m  <title>FeelingWood</title>[m
+[32m+[m[32m  <meta name="viewport" content="width=device-width, initial-scale=1">[m
+[32m+[m[32m  <link rel="stylesheet" type="text/css" href="styles/style.css">[m
+[32m+[m[32m</head>[m
+[32m+[m
+[32m+[m[32m<body>[m
+[32m+[m[32m  <header>[m
+[32m+[m[32m    <div id="nav">[m
+[32m+[m[32m      <tr>[m
+[32m+[m[32m        <th> <a><img src="LogoWhite.png" /></a></th>[m
+[32m+[m[32m        <th><a href="index.html">Home</a></th>[m
+[32m+[m[32m        <th><a href="products.html">Products</a></th>[m
+[32m+[m[32m        <th><a href="about.html">About Us</a></th>[m
+[32m+[m[32m        <th><a href="faq.html">FAQ</a></th>[m
+[32m+[m[32m        <th><a href="contact.html">Contact Us</a></th>[m
+[32m+[m[32m      </tr>[m
+[32m+[m[32m    </div>[m
+[32m+[m
+[32m+[m[32m  </header>[m
+[32m+[m
+[32m+[m[32m  <main>[m
+[32m+[m[32m    <!--==========================[m
+[32m+[m[32m      FAQ[m
+[32m+[m[32m    ============================-->[m
+[32m+[m[32m    <section id="faq" class="section-bg">[m
+[32m+[m[32m      <div class="container-fluid">[m
+[32m+[m[32m        <div class="row">[m
+[32m+[m[32m          <div class="col-lg-6 content">[m
+[32m+[m[32m            <h2><strong>FAQ</strong></h2>[m
+[32m+[m[32m            <br>[m
+[32m+[m[32m            <h3><strong>Are the planks made of synthetic wood or other imitations?</strong></h3>[m
+[32m+[m[32m            <p>No! We use 100% authentic and exotic woods from all over the world. You will notice once you get the[m
+[32m+[m[32m              sample box: the smell, the texture and the color don’t lie!</p>[m
+[32m+[m
+[32m+[m[32m            <h3><strong>Do the planks have UV luster?</strong></h3>[m
+[32m+[m[32m            <p>Yes! From both sides: it’s almost imperceptible but brings great protection. This is essential to ensure[m
+[32m+[m[32m              the durability of the wood</p>[m
+[32m+[m
+[32m+[m[32m            <h3><strong>My wall it’s not in great shape. Anything to keep in mind?</strong></h3>[m
+[32m+[m[32m            <p>Clean the surface with a damp towel to remove any dust or particles. Before you start, the surface must[m
+[32m+[m[32m              be dry! On a small and discreet area, stick a plank with pressure to ensure a good grip. After 48 hours,[m
+[32m+[m[32m              verify that the paint or surface texture has generated a correct adhesion.</p>[m
+[32m+[m
+[32m+[m[32m            <h3><strong>Is FEELING WOOD a DIY product?</strong></h3>[m
+[32m+[m[32m            <p>Absolutely! Just follow the steps at our installation section. If you have any doubts or need online[m
+[32m+[m[32m              help, just call us!</p>[m
+[32m+[m
+[32m+[m[32m            <h3><strong>Let’s suppose I get bored of the planks… can I remove them?</strong></h3>[m
+[32m+[m[32m            <p>It’s almost impossible to get bored of FEELING WOOD! But yes, you can remove the planks. It could take[m
+[32m+[m[32m              some hard work (it works like a wallpaper) and after that you may need some repairs and painting.</p>[m
+[32m+[m
+[32m+[m[32m            <h3><strong>How much do the planks last?</strong></h3>[m
+[32m+[m[32m            <p>Our premium adhesive of double-sided tape is rated for 10 years, but could last even more!</p>[m
+[32m+[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </section>[m
+[32m+[m[32m    <!-- Your privacy -->[m
+[32m+[m
+[32m+[m
+[32m+[m[32m    <!--==========================[m
+[32m+[m[32m      Footer[m
+[32m+[m[32m============================-->[m
+[32m+[m[32m    <section id="footer">[m
+[32m+[m[32m      <div class="container">[m
+[32m+[m[32m        <div class="row" data-aos="fade-up">[m
+[32m+[m[32m          <div class="col-lg-4 col-md-4">[m
+[32m+[m[32m            <div class="footer">[m
+[32m+[m[32m              <div class="left item">[m
+[32m+[m[32m                <a href=""><img src="logoWhiteMini.webp" class="ui image left aligned" id="logo"></a>[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m              <div class="footer-links">[m
+[32m+[m[32m                <a href="yourPrivacy.html">Your privacy</a>[m
+[32m+[m[32m                <br>[m
+[32m+[m[32m                <a href="termsOfService.html">Terms of service</a>[m
+[32m+[m[32m                <br>[m
+[32m+[m[32m                <a href="returnPolicy.html">Return policy</a>[m
+[32m+[m[32m                <!-- bloque de email para que manden para mas informacion -->[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </section><!-- #Footer -->[m
+[32m+[m[32m  </main>[m
+[32m+[m[32m</body>[m
+[32m+[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/images/background.jpg b/images/background.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d39a236[m
+Binary files /dev/null and b/images/background.jpg differ
+[1mdiff --git a/images/products/samples/sample.webp b/images/products/samples/sample.webp[m
+[1mnew file mode 100644[m
+[1mindex 0000000..affc39e[m
+Binary files /dev/null and b/images/products/samples/sample.webp differ
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 37db6be..7d8e362 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -3,7 +3,7 @@[m
+ [m
+ <head>[m
+     <meta charset="utf-8">[m
+[31m-    <!-- <title>ToDoList</title> -->[m
+[32m+[m[32m    <title>FeelingWood</title>[m
+     <meta name="viewport" content="width=device-width, initial-scale=1">[m
+     <link rel="stylesheet" type="text/css" href="styles/style.css">[m
+     <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&amp;subset=cyrillic" rel="stylesheet">[m
+[36m@@ -14,27 +14,51 @@[m
+ [m
+ <body>[m
+     <header>[m
+[31m-        <div>[m
+[31m-            <table>[m
+[31m-                [m
+[31m-               [m
+[31m-                <tr>[m
+[31m-                  <td ><table width="600">[m
+[31m-                    <tr>[m
+[31m-                        <th><a><img src="LogoWhite.png"  /></a></th>[m
+[31m-                      <th><a href="index.html">Home</a></th>[m
+[31m-                      <th><a href="products.html">Products</a></th>[m
+[31m-                      <th><a href="about.html">About Us</a></th>[m
+[31m-                      <th><a href="faq.html">FAQ</a></th>[m
+[31m-                      <th><a href="contact.html">Contact Us</a></th>[m
+[31m-                      <th><a href="shop.html">Shop</a></th>[m
+[31m-                    </tr>[m
+[31m-                  </table></td>[m
+[31m-                </tr>[m
+[32m+[m[32m        <div id="nav">[m
+[32m+[m[32m            <tr>[m
+[32m+[m[32m                <th><a><img src="LogoWhite.png"/></a></th>[m
+[32m+[m[32m                <th><a href="index.html">Home</a></th>[m
+[32m+[m[32m                <th><a href="products.html">Products</a></th>[m
+[32m+[m[32m                <th><a href="about.html">About Us</a></th>[m
+[32m+[m[32m                <th><a href="faq.html">FAQ</a></th>[m
+[32m+[m[32m                <th><a href="contact.html">Contact Us</a></th>[m
+[32m+[m[32m            </tr>[m[41m       [m
+         </div>[m
+[31m-         [m
+     </header>[m
+[31m-   [m
+[32m+[m
+[32m+[m[32m<main>[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m<!--==========================[m
+[32m+[m[32m      Footer[m
+[32m+[m[32m============================-->[m
+[32m+[m[32m    <section id="footer">[m
+[32m+[m[32m        <div class="container">[m
+[32m+[m[32m          <div class="row" data-aos="fade-up">[m
+[32m+[m[41m  [m
+[32m+[m[32m            <div class="col-lg-4 col-md-4">[m
+[32m+[m[32m              <div class="footer">[m
+[32m+[m[41m                [m
+[32m+[m[32m                  <div class="left item">[m
+[32m+[m[32m                    <a href=""><img src="logoWhiteMini.webp"[m
+[32m+[m[32m                        class="ui image left aligned" id="logo"></a>[m
+[32m+[m[32m                  </div>[m
+[32m+[m[41m                [m
+[32m+[m[32m                <div class="footer-links">[m
+[32m+[m[32m                    <a href="yourPrivacy.html">Your privacy</a>[m
+[32m+[m[32m                    <br>[m
+[32m+[m[32m                    <a href="termsOfService.html">Terms of service</a>[m
+[32m+[m[32m                    <br>[m
+[32m+[m[32m                    <a href="returnPolicy.html">Return policy</a>[m
+[32m+[m[32m                    <!-- bloque de email para que manden para mas informacion -->[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </section><!-- #Footer -->[m
+[32m+[m[32m    </main>[m[41m [m
+ </body>[m
+ [m
+ </html>[m
+[1mdiff --git a/info.txt b/info.txt[m
+[1mindex 2c9453c..58f1ca2 100644[m
+[1m--- a/info.txt[m
+[1m+++ b/info.txt[m
+[36m@@ -1,8 +1,33 @@[m
+ [m
+ [m
+[32m+[m[32mHOME[m
+ [m
+[32m+[m[32mPRODUCTS[m
+ [m
+[32m+[m[32mABOUT US[m
+[32m+[m[32m- Background attachment[m
+ [m
+[32m+[m[32mFAQ[m
+[32m+[m[32m- Tiene que estar centrado el texto como en bloque. (Como esta en la pagina me parece mucho)[m
+[32m+[m[32m- Tipografia correspondiente[m
+ [m
+[32m+[m[32mCONTACT US[m
+ [m
+[31m-Hi esto es la configuaracion[m
+[32m+[m[32mFOOTER[m
+[32m+[m[32m- links a faq's (YA esta)[m
+[32m+[m[32m- Suscribase a nuestro newsletter: mail + bton de enviar[m
+[32m+[m[32m- logo de redes?[m
+[32m+[m
+[32m+[m[32mLink a faq's[m
+[32m+[m[32mYOUR PRIVACY[m
+[32m+[m[32m- Tiene que estar centrado el texto como en bloque. (Como esta en la pagina me parece mucho)[m
+[32m+[m[32m- Tipografia correspondiente[m
+[32m+[m
+[32m+[m[32mTERMS OF SERVICE[m
+[32m+[m[32m- Esta seccion no esta, hizo quete llevara a Contact Us (pedirle la informacion que corresponde a esta pagina)[m
+[32m+[m
+[32m+[m[32mRETURN POLICY[m
+[32m+[m[32m- Tiene que estar centrado el texto como en bloque. (Como esta en la pagina me parece mucho)[m
+[32m+[m[32m- Tipografia correspondiente[m
+[32m+[m
+[32m+[m[32mCONTACT US[m
+\ No newline at end of file[m
+[1mdiff --git a/logoWhiteMini.webp b/logoWhiteMini.webp[m
+[1mnew file mode 100644[m
+[1mindex 0000000..272b332[m
+Binary files /dev/null and b/logoWhiteMini.webp differ
+[1mdiff --git a/products.html b/products.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/returnPolicy.html b/returnPolicy.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7f3385c[m
+[1m--- /dev/null[m
+[1m+++ b/returnPolicy.html[m
+[36m@@ -0,0 +1,109 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html>[m
+[32m+[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="utf-8">[m
+[32m+[m[32m    <!-- <title>ToDoList</title> -->[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1">[m
+[32m+[m[32m    <link rel="stylesheet" type="text/css" href="styles/style.css">[m
+[32m+[m[32m    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&amp;subset=cyrillic" rel="stylesheet">[m
+[32m+[m[32m    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"[m
+[32m+[m[32m        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->[m
+[32m+[m[32m    <!-- <script src="js/todo.js" type="text/javascript"></script> -->[m
+[32m+[m[32m</head>[m
+[32m+[m
+[32m+[m[32m<body>[m
+[32m+[m
+[32m+[m[32m    <header>[m
+[32m+[m[32m        <div id="nav">[m
+[32m+[m[32m            <tr>[m
+[32m+[m[32m                <th> <a><img src="LogoWhite.png" /></a></th>[m
+[32m+[m[32m                <th><a href="index.html">Home</a></th>[m
+[32m+[m[32m                <th><a href="products.html">Products</a></th>[m
+[32m+[m[32m                <th><a href="about.html">About Us</a></th>[m
+[32m+[m[32m                <th><a href="faq.html">FAQ</a></th>[m
+[32m+[m[32m                <th><a href="contact.html">Contact Us</a></th>[m
+[32m+[m[32m            </tr>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m    </header>[m
+[32m+[m
+[32m+[m[32m    <main>[m
+[32m+[m[32m        <!--==========================[m
+[32m+[m[32m      Your Privacy[m
+[32m+[m[32m    ============================-->[m
+[32m+[m[32m        <section id="faq" class="section-bg">[m
+[32m+[m[32m            <div class="container-fluid">[m
+[32m+[m[32m                <div class="row">[m
+[32m+[m[32m                    <div class="col-lg-6 content" data-aos="fade-left">[m
+[32m+[m[32m                        <h2><strong>Return Policy</strong></h2>[m
+[32m+[m[32m                        <br>[m
+[32m+[m[41m                        [m
+[32m+[m[32m                        <h3><strong>Order with Confidence</strong> </h3>[m
+[32m+[m[32m                        <p>When you order from Feeling Wood, you are ordering directly from the manufacturer. This means[m
+[32m+[m[32m                            we don’t answer to anyone but you. Our only goal is that you have a good experience and your[m
+[32m+[m[32m                            space turns out exactly as you envisioned.[m
+[32m+[m[32m                        </p>[m
+[32m+[m
+[32m+[m[32m                        <h3><strong>Return & Exchange Policy*</strong></h3>[m
+[32m+[m[32m                        <p>Return or exchange requests must be made within 30 days of receiving your Feeling Wood. It[m
+[32m+[m[32m                            must be unused and returned in full (not cut and with the peel and stick backer intact—it's[m
+[32m+[m[32m                            ok if one of the boxes was opened, but must be resealed). If you have an unopened, unused[m
+[32m+[m[32m                            left-over box, let us know and you can return it for a partial refund.[m
+[32m+[m[32m                        </p>[m
+[32m+[m
+[32m+[m[32m                        <p> ● Exchanges are free as long as they are requested within the 30 of receiving the product.[m
+[32m+[m[32m                        </p>[m
+[32m+[m
+[32m+[m[32m                        <p> ● If you’re exchanging for a higher-priced product, you will be responsible for covering the[m
+[32m+[m[32m                            price difference.[m
+[32m+[m[32m                        </p>[m
+[32m+[m
+[32m+[m[32m                        <p> ● For returns, you'll be asked to pay the shipping fees and a 15% restocking fee.</p>[m
+[32m+[m
+[32m+[m[32m                        <p> ● Custom orders cannot be returned or exchanged.</p>[m
+[32m+[m
+[32m+[m[32m                        <p> ● Tools, trim and accessories are not returnable.</p>[m
+[32m+[m
+[32m+[m[32m                        <p> ● Refunds will be processed upon the receipt of the returned material and applied to the card[m
+[32m+[m[32m                            you used to purchase within 3-5 business days.</p>[m
+[32m+[m
+[32m+[m[32m                        <p> * For trade and commercial orders please contact our customer service team or your rep for[m
+[32m+[m[32m                            return and exchange requests.</p>[m
+[32m+[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m        </section>[m
+[32m+[m[32m        <!-- Your privacy -->[m
+[32m+[m
+[32m+[m
+[32m+[m[32m        <!--==========================[m
+[32m+[m[32m      Footer[m
+[32m+[m[32m============================-->[m
+[32m+[m[32m        <section id="footer">[m
+[32m+[m[32m            <div class="container">[m
+[32m+[m[32m                <div class="row" data-aos="fade-up">[m
+[32m+[m
+[32m+[m[32m                    <div class="col-lg-4 col-md-4">[m
+[32m+[m[32m                        <div class="footer">[m
+[32m+[m
+[32m+[m[32m                            <div class="left item">[m
+[32m+[m[32m                                <a href=""><img src="logoWhiteMini.webp" class="ui image left aligned" id="logo"></a>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                            <div class="footer-links">[m
+[32m+[m[32m                                <a href="yourPrivacy.html">Your privacy</a>[m
+[32m+[m[32m                                <br>[m
+[32m+[m[32m                                <a href="termsOfService.html">Terms of service</a>[m
+[32m+[m[32m                                <br>[m
+[32m+[m[32m                                <a href="returnPolicy.html">Return policy</a>[m
+[32m+[m[32m                                <!-- bloque de email para que manden para mas informacion -->[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m        </section><!-- #Footer -->[m
+[32m+[m[32m    </main>[m
+[32m+[m[32m</body>[m
+[32m+[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/styles/style.css b/styles/style.css[m
+[1mold mode 100644[m
+[1mnew mode 100755[m
+[1mindex 51f0b49..9917daa[m
+[1m--- a/styles/style.css[m
+[1m+++ b/styles/style.css[m
+[36m@@ -1,219 +1,316 @@[m
+[31m-@import "../css/reset.css";[m
+[32m+[m
+[32m+[m[32m/*--------------------------------------------------------------[m
+[32m+[m[32m# General[m
+[32m+[m[32m--------------------------------------------------------------*/[m
+ body {[m
+[31m-  font-family: "Roboto", sans-serif;[m
+[31m-  font-size: 16px;[m
+[31m-  color: #ccc;[m
+[31m-  background: #121d34;[m
+[31m-}[m
+[31m-body header {[m
+[31m-  /* background: #BC3B69; */[m
+[31m-  border-radius: 0 0 16px 16px;[m
+[31m-  /* width: 100vw;[m
+[31m-  height: 82px; */[m
+[31m-  top: 0;[m
+[31m-  margin: 0 0 16px 0;[m
+[32m+[m[32m  background: #004F53;[m
+[32m+[m[32m  color: #666666;[m
+[32m+[m[32m  font-family: "Open Sans", sans-serif;[m
+[32m+[m[32m  overflow-x: hidden;[m
+ }[m
+[31m-body header div {[m
+[31m-  position: absolute;[m
+[31m-  float: left;[m
+[31m-  margin: 16px 0;[m
+[31m-  left: 16px;[m
+[31m-  right: 16px;[m
+[31m-  display: block;[m
+[32m+[m
+[32m+[m[32m#nav {[m
+[32m+[m[32m  padding: 20px 20px;[m
+[32m+[m[32m  background-color: #004F53;[m
+ }[m
+[31m-body header div input.entry {[m
+[31m-  font-family: "Roboto", sans-serif !important;[m
+[31m-  font-size: 16px;[m
+[31m-  box-sizing: border-box;[m
+[31m-  width: 100%;[m
+[31m-  height: 50px;[m
+[31m-  background-color: rgba(255, 255, 255, 0.2);[m
+[31m-  border-radius: 8px 24px 24px 8px;[m
+[31m-  text-indent: 16px;[m
+[31m-  margin: 0;[m
+[31m-  outline: none;[m
+[31m-  border: none;[m
+[32m+[m[32m#nav a {[m
+[32m+[m[32m  font-family: "Montserrat", sans-serif;[m
+[32m+[m[32m  color: rgb(255, 255, 255);[m
+[32m+[m[32m  text-decoration: none;[m
+[32m+[m[32m  transition: 0.5s;[m
+[32m+[m[32m  padding: 0px 50px;[m
+ }[m
+[31m-body header div input.entry:focus {[m
+[31m-  color: #fff;[m
+[32m+[m
+[32m+[m[32m#nav a:hover, a:active, a:focus {[m
+[32m+[m[32m  color: #dc990f;[m
+[32m+[m[32m  outline: none;[m
+[32m+[m[32m  text-decoration: none;[m
+ }[m
+[31m-body header div input.entry::placeholder {[m
+[31m-  color: #fff !important;[m
+[32m+[m
+[32m+[m[32mp {[m
+[32m+[m[32m  padding: 0;[m
+[32m+[m[32m  margin: 0 0 30px 0;[m
+ }[m
+[31m-body header button.add {[m
+[31m-  -webkit-appearance: none;[m
+[31m-  -moz-appearance: none;[m
+[31m-  margin: 0;[m
+[32m+[m
+[32m+[m[32mh1, h2, h3, h4, h5, h6 {[m
+[32m+[m[32m  font-family: "Montserrat", sans-serif;[m
+[32m+[m[32m  font-weight: 400;[m
+[32m+[m[32m  margin: 0 0 20px 0;[m
+   padding: 0;[m
+[31m-  cursor: pointer;[m
+[31m-  border: none;[m
+[31m-  width: 50px;[m
+[31m-  height: 50px;[m
+[31m-  background: #fff;[m
+[31m-  border-radius: 50%;[m
+[31m-  position: absolute;[m
+[31m-  float: right;[m
+[31m-  right: 16px;[m
+[31m-  top: 16px;[m
+ }[m
+[31m-body header button.add img {[m
+[31m-  width: 16px;[m
+[31m-  height: 16px;[m
+[31m-  display: inline-block;[m
+[31m-  margin: auto;[m
+[32m+[m
+[32m+[m[32m/* Back to top button */[m
+[32m+[m
+[32m+[m[32m/* .back-to-top {[m
+[32m+[m[32m  position: fixed;[m
+[32m+[m[32m  display: none;[m
+[32m+[m[32m  background: linear-gradient(45deg, #1de099, #1dc8cd);[m
+[32m+[m[32m  color: #fff;[m
+[32m+[m[32m  padding: 2px 20px 8px 20px;[m
+[32m+[m[32m  font-size: 16px;[m
+[32m+[m[32m  border-radius: 4px 4px 0 0;[m
+[32m+[m[32m  right: 15px;[m
+[32m+[m[32m  bottom: 0;[m
+[32m+[m[32m  transition: none;[m
+ }[m
+[31m-body .notice {[m
+[31m-  padding: 0 16px;[m
+[32m+[m
+[32m+[m[32m.back-to-top:focus {[m
+[32m+[m[32m  background: linear-gradient(45deg, #1de099, #1dc8cd);[m
+[32m+[m[32m  color: #fff;[m
+[32m+[m[32m  outline: none;[m
+ }[m
+[31m-body .notice #unDoneTasks div {[m
+[31m-  display: block;[m
+[32m+[m
+[32m+[m[32m.back-to-top:hover {[m
+[32m+[m[32m  background: #1dc8cd;[m
+[32m+[m[32m  color: #fff;[m
+[32m+[m[32m} */[m
+[32m+[m
+[32m+[m[32m/*--------------------------------------------------------------[m
+[32m+[m[32m# Header[m
+[32m+[m[32m--------------------------------------------------------------*/[m
+[32m+[m[32m#header {[m
+[32m+[m[32m  padding: 30px 0;[m
+[32m+[m[32m  height: 92px;[m
+[32m+[m[32m  position: fixed;[m
+[32m+[m[32m  left: 0;[m
+[32m+[m[32m  top: 0;[m
+[32m+[m[32m  right: 0;[m
+[32m+[m[32m  transition: all 0.5s;[m
+[32m+[m[32m  z-index: 997;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m[32m/*--------------------------------------------------------------[m
+[32m+[m[32m# Intro Section[m
+[32m+[m[32m--------------------------------------------------------------*/[m
+[32m+[m[32m#intro {[m
+   width: 100%;[m
+[31m-  height: 50px;[m
+[31m-  background-color: #fff !important;[m
+[31m-  border-radius: 8px !important;[m
+[31m-  margin: 16px 0;[m
+[31m-  color: #444;[m
+[31m-  font-weight: bold;[m
+[31m-  text-indent: 16px;[m
+[31m-  line-height: 50px;[m
+[32m+[m[32m  height: 100vh;[m
+[32m+[m[32m  background: linear-gradient(45deg, #1de099, #bd2db1);[m
+   position: relative;[m
+ }[m
+[31m-body .notice #unDoneTasks div .trash {[m
+[31m-  -webkit-appearance: none;[m
+[31m-  -moz-appearance: none;[m
+[31m-  margin: 0;[m
+[31m-  padding: 0;[m
+[31m-  cursor: pointer;[m
+[31m-  border: none;[m
+[31m-  width: 50px;[m
+[31m-  height: 50px;[m
+[31m-  background: #fff;[m
+[31m-  position: absolute;[m
+[31m-  float: right;[m
+[31m-  right: 50px;[m
+[31m-  top: 0;[m
+[31m-  border-right: 1px solid #edf0f1;[m
+[32m+[m
+[32m+[m[32m#intro .intro-text {[m
+[32m+[m[32m  padding-top: 140px;[m
+[32m+[m[32m  text-align: center;[m
+[32m+[m[32m  vertical-align: top;[m
+ }[m
+[31m-body .notice #unDoneTasks div .trash .trashIcon {[m
+[31m-  font-size: 22px;[m
+[31m-  color: #ccc;[m
+[32m+[m
+[32m+[m[32m@media (max-height: 768px) {[m
+[32m+[m[32m  #intro .intro-text {[m
+[32m+[m[32m    padding-top: 80px;[m
+[32m+[m[32m  }[m
+ }[m
+[31m-body .notice #unDoneTasks div .trash:hover i.trashIcon {[m
+[31m-  color: #BC3B69;[m
+[32m+[m
+[32m+[m[32m@media (max-width: 768px) {[m
+[32m+[m[32m  #intro .intro-text {[m
+[32m+[m[32m    padding-top: 180px;[m
+[32m+[m[32m  }[m
+ }[m
+[31m-body .notice #unDoneTasks div .check {[m
+[31m-  -webkit-appearance: none;[m
+[31m-  -moz-appearance: none;[m
+[31m-  margin: 0;[m
+[31m-  padding: 0;[m
+[31m-  cursor: pointer;[m
+[31m-  border: none;[m
+[31m-  width: 50px;[m
+[31m-  height: 50px;[m
+[31m-  background: #fff;[m
+[31m-  border-radius: 0 50% 50% 0;[m
+[31m-  position: absolute;[m
+[31m-  float: right;[m
+[31m-  right: 0;[m
+[31m-  top: 0;[m
+[31m-  border-left: 1px #edf0f1;[m
+[31m-}[m
+[31m-body .notice #unDoneTasks div .check i.taskStatus {[m
+[31m-  color: #BC3B69;[m
+[31m-  font-size: 10px;[m
+[31m-  line-height: 16px;[m
+[31m-  padding: 6px;[m
+[31m-  width: 16px;[m
+[31m-  height: 16px;[m
+[31m-  border: 1.5px solid #BC3B69;[m
+[31m-  border-radius: 50%;[m
+[31m-}[m
+[31m-body .notice #unDoneTasks div .check:hover i.taskStatus {[m
+[32m+[m
+[32m+[m[32m@media (max-width: 767px) {[m
+[32m+[m[32m  #intro .intro-text {[m
+[32m+[m[32m    padding-top: 50px;[m
+[32m+[m[32m  }[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m#intro h2 {[m
+[32m+[m[32m  margin: 30px 0 10px 0;[m
+[32m+[m[32m  padding: 0 15px;[m
+[32m+[m[32m  font-size: 48px;[m
+[32m+[m[32m  font-weight: 400;[m
+[32m+[m[32m  line-height: 56px;[m
+   color: #fff;[m
+[31m-  background-color: rgba(212, 102, 140, 0.748);[m
+[31m-  transition: background-color 1seg ease;[m
+ }[m
+[31m-body .notice #doneTasks div {[m
+[31m-  display: block;[m
+[31m-  width: 100%;[m
+[31m-  height: 50px;[m
+[31m-  background-color: #fff !important;[m
+[31m-  border-radius: 8px !important;[m
+[31m-  margin: 16px 0;[m
+[31m-  color: #444;[m
+[31m-  font-weight: bold;[m
+[31m-  text-indent: 16px;[m
+[31m-  line-height: 50px;[m
+[31m-  position: relative;[m
+[32m+[m
+[32m+[m[32m@media (max-width: 768px) {[m
+[32m+[m[32m  #intro h2 {[m
+[32m+[m[32m    font-size: 28px;[m
+[32m+[m[32m    line-height: 36px;[m
+[32m+[m[32m  }[m
+ }[m
+[31m-body .notice #doneTasks div .trash {[m
+[31m-  -webkit-appearance: none;[m
+[31m-  -moz-appearance: none;[m
+[31m-  margin: 0;[m
+[31m-  padding: 0;[m
+[31m-  cursor: pointer;[m
+[31m-  border: none;[m
+[31m-  width: 50px;[m
+[31m-  height: 50px;[m
+[31m-  background: #fff;[m
+[31m-  position: absolute;[m
+[31m-  float: right;[m
+[31m-  right: 50px;[m
+[31m-  top: 0;[m
+[31m-  border-right: 1px solid #edf0f1;[m
+[31m-  transition: color 0.5seg ease;[m
+[32m+[m
+[32m+[m[32m#intro p {[m
+[32m+[m[32m  color: #fff;[m
+[32m+[m[32m  margin-bottom: 20px;[m
+[32m+[m[32m  padding: 0 15px;[m
+[32m+[m[32m  font-size: 24px;[m
+ }[m
+[31m-body .notice #doneTasks div .trash .trashIcon {[m
+[31m-  font-size: 22px;[m
+[31m-  color: #ccc;[m
+[32m+[m
+[32m+[m[32m@media (max-width: 768px) {[m
+[32m+[m[32m  #intro p {[m
+[32m+[m[32m    font-size: 18px;[m
+[32m+[m[32m    line-height: 24px;[m
+[32m+[m[32m    margin-bottom: 20px;[m
+[32m+[m[32m  }[m
+ }[m
+[31m-body .notice #doneTasks div .trash:hover i.trashIcon {[m
+[31m-  color: #BC3B69;[m
+[32m+[m
+[32m+[m[32m#intro .btn-get-started {[m
+[32m+[m[32m  font-family: "Montserrat", sans-serif;[m
+[32m+[m[32m  font-weight: 400;[m
+[32m+[m[32m  font-size: 16px;[m
+[32m+[m[32m  letter-spacing: 1px;[m
+[32m+[m[32m  display: inline-block;[m
+[32m+[m[32m  padding: 8px 28px;[m
+[32m+[m[32m  border-radius: 50px;[m
+[32m+[m[32m  transition: 0.5s;[m
+[32m+[m[32m  margin: 10px;[m
+[32m+[m[32m  border: 2px solid #fff;[m
+[32m+[m[32m  color: #fff;[m
+ }[m
+[31m-body .notice #doneTasks div .check {[m
+[31m-  -webkit-appearance: none;[m
+[31m-  -moz-appearance: none;[m
+[31m-  margin: 0;[m
+[31m-  padding: 0;[m
+[31m-  cursor: pointer;[m
+[31m-  border: none;[m
+[31m-  width: 50px;[m
+[31m-  height: 50px;[m
+[32m+[m
+[32m+[m[32m#intro .btn-get-started:hover {[m
+[32m+[m[32m  color: #1dc8cd;[m
+   background: #fff;[m
+[31m-  border-radius: 0 50% 50% 0;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m#intro .product-screens {[m
+   position: absolute;[m
+[31m-  float: right;[m
+[32m+[m[32m  left:-130px;[m
+   right: 0;[m
+[31m-  top: 0;[m
+[32m+[m[32m  bottom: 0;[m
+[32m+[m[32m  overflow: hidden;[m
+[32m+[m[32m  padding-top: 70px !important;[m
+[32m+[m[32m  text-align: center;[m
+[32m+[m[32m  width: 100%;[m
+[32m+[m[32m  height: 400px !important;[m
+ }[m
+[31m-body .notice #doneTasks div .check i.taskStatus {[m
+[31m-  color: #fff;[m
+[31m-  font-size: 10px;[m
+[31m-  line-height: 16px;[m
+[31m-  padding: 6px;[m
+[31m-  width: 16px;[m
+[31m-  height: 16px;[m
+[31m-  border: 1.5px solid #BC3B69;[m
+[31m-  border-radius: 50%;[m
+[31m-  background-color: #BC3B69;[m
+[31m-  transition: background-color 0.5seg ease;[m
+[31m-}[m
+[31m-body .notice #doneTasks div .check:hover i.taskStatus {[m
+[31m-  color: #fff;[m
+[31m-  background-color: rgba(212, 102, 140, 0.748);[m
+[32m+[m
+[32m+[m[32m#intro .product-screens img {[m
+[32m+[m[32m  box-shadow: 0px -2px 19px 4px rgba(0, 0, 0, 0.29);[m
+ }[m
+[31m-body .msg {[m
+[31m-  font-size: 19.2px;[m
+[31m-  text-align: center;[m
+[32m+[m
+[32m+[m[32m#intro .product-screens .product-screen-1 {[m
+[32m+[m[32m  position: absolute;[m
+[32m+[m[32m  z-index: 30;[m
+[32m+[m[32m  left: calc(50% + 54px);[m
+[32m+[m[32m  bottom: 0;[m
+[32m+[m[32m  height: 500px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m#intro .product-screens .product-screen-2 {[m
+[32m+[m[32m  position: absolute;[m
+[32m+[m[32m  z-index: 20;[m
+[32m+[m[32m  left: calc(50% - 154px);[m
+[32m+[m[32m  bottom: 0;[m
+[32m+[m[32m  height: 430px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m#intro .product-screens .imgmobile {[m
+   display: none;[m
+[31m-  margin: 32px auto 0;[m
+[31m-  font-weight: bold;[m
+[31m-  color: #BC3B69;[m
+[31m-}[m
+[31m-body hr {[m
+[31m-  border: 0;[m
+[31m-  height: 1px;[m
+[31m-  background-color: #d8e5e0;[m
+[31m-  width: 200px;[m
+[31m-  margin: 32px auto;[m
+[31m-}[m
+\ No newline at end of file[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m[32m@media (max-height: 768px) {[m
+[32m+[m[32m  #intro .product-screens {[m
+[32m+[m[32m    height: 430px;[m
+[32m+[m[32m  }[m
+[32m+[m[32m  #intro .product-screens .product-screen-1 {[m
+[32m+[m[32m    height: 400px;[m
+[32m+[m[32m  }[m
+[32m+[m[32m  #intro .product-screens .product-screen-2 {[m
+[32m+[m[32m    height: 330px;[m
+[32m+[m[32m  }[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m@media (max-width: 767px) {[m
+[32m+[m[32m  #intro .product-screens {[m
+[32m+[m[32m    height: 400px;[m
+[32m+[m[32m  }[m
+[32m+[m[32m  #intro .product-screens .product-screen-1 {[m
+[32m+[m[32m    display: none;[m
+[32m+[m[32m  }[m
+[32m+[m[32m  #intro .product-screens .product-screen-2 {[m
+[32m+[m[32m    display: none;[m
+[32m+[m[32m  }[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m@media (max-width: 767px) and (max-height: 639px) {[m
+[32m+[m[32m  #intro .product-screens {[m
+[32m+[m[32m    height: 700px;[m
+[32m+[m[32m  }[m
+[32m+[m[32m  #intro .product-screens .product-screen-2 {[m
+[32m+[m[32m    display: none;}[m
+[32m+[m[32m    #intro .product-screens .product-screen-1 {[m
+[32m+[m[32m      display: none;}[m
+[32m+[m[41m      [m
+[32m+[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/*--------------------------------------------------------------[m
+[32m+[m[32m# Sections[m
+[32m+[m[32m--------------------------------------------------------------*/[m
+[32m+[m
+[32m+[m
+[32m+[m[32m/* Section with background[m
+[32m+[m[32m--------------------------------*/[m
+[32m+[m[32m.section-bg {[m
+[32m+[m[32m  background: #eff5f5;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* About Us Section[m
+[32m+[m[32m--------------------------------*/[m
+[32m+[m
+[32m+[m[32m#background {[m
+[32m+[m[32m  background-image:  url("../images/background.jpg");[m[41m  [m
+[32m+[m[32m  font-size: 35px;[m[41m  [m
+[32m+[m[32m  background-attachment: scroll;[m[41m  [m
+[32m+[m[32m  }[m
+[32m+[m
+[32m+[m[32m#about {[m
+[32m+[m[32m  padding: 30px 20px;[m
+[32m+[m[32m  display: block;[m
+[32m+[m[32m  position: center;[m
+[32m+[m[32m  font-family: "Montserrat", sans-serif;[m
+[32m+[m[32m  font-size: 18px;[m
+[32m+[m[32m  line-height: 1;[m
+[32m+[m[32m  padding-right: 20px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m[32m/* Frequently Asked Questions Section[m
+[32m+[m[32m--------------------------------*/[m
+[32m+[m
+[32m+[m[32m#faq {[m
+[32m+[m[32m  padding: 30px 20px;[m
+[32m+[m[32m  display: block;[m
+[32m+[m[32m  position: center;[m
+[32m+[m[32m  font-family: "Montserrat", sans-serif;[m
+[32m+[m[32m  font-size: 18px;[m
+[32m+[m[32m  line-height: 1;[m
+[32m+[m[32m  padding-right: 20px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m@media (max-width: 768px) {[m
+[32m+[m[32m  #faq #faq-list a {[m
+[32m+[m[32m    font-size: 18px;[m
+[32m+[m[32m  }[m
+[32m+[m[32m  #faq #faq-list i {[m
+[32m+[m[32m    top: 13px;[m
+[32m+[m[32m  }[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m[32m/*--------------------------------------------------------------[m
+[32m+[m[32m# Footer[m
+[32m+[m[32m--------------------------------------------------------------*/[m
+[32m+[m
+[32m+[m[32m#footer {[m
+[32m+[m[32m  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);[m
+[32m+[m[32m  padding: 20px 30px;[m
+[32m+[m[32m  background-color: #004F53;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m[32m#footer .footer-links a {[m
+[32m+[m[32m  font-size: 14px;[m
+[32m+[m[32m  line-height: 24px;[m
+[32m+[m[32m  font-family: "Montserrat", sans-serif;[m
+[32m+[m[32m  color: rgb(255, 255, 255);[m
+[32m+[m[32m  text-decoration: none;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m#footer .footer-links a:hover {[m
+[32m+[m[32m  color: #dc990f;[m
+[32m+[m[32m}[m
+[41m+[m
+[1mdiff --git a/termsOfService.html b/termsOfService.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/yourPrivacy.html b/yourPrivacy.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..188f3ae[m
+[1m--- /dev/null[m
+[1m+++ b/yourPrivacy.html[m
+[36m@@ -0,0 +1,101 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html>[m
+[32m+[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="utf-8">[m
+[32m+[m[32m    <!-- <title>ToDoList</title> -->[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1">[m
+[32m+[m[32m    <link rel="stylesheet" type="text/css" href="styles/style.css">[m
+[32m+[m[32m    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&amp;subset=cyrillic" rel="stylesheet">[m
+[32m+[m[32m    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"[m
+[32m+[m[32m        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->[m
+[32m+[m[32m    <!-- <script src="js/todo.js" type="text/javascript"></script> -->[m
+[32m+[m[32m</head>[m
+[32m+[m
+[32m+[m[32m<body>[m
+[32m+[m[32m    <header>[m
+[32m+[m[32m        <div id="nav">[m
+[32m+[m[41m           [m
+[32m+[m[41m                [m
+[32m+[m[41m               [m
+[32m+[m[41m       [m
+[32m+[m[32m                    <tr>[m
+[32m+[m[32m                    <th>   <a><img src="LogoWhite.png"  /></a></th>[m
+[32m+[m[32m                      <th><a href="index.html">Home</a></th>[m
+[32m+[m[32m                      <th><a href="products.html">Products</a></th>[m
+[32m+[m[32m                      <th><a href="about.html">About Us</a></th>[m
+[32m+[m[32m                      <th><a href="faq.html">FAQ</a></th>[m
+[32m+[m[32m                      <th><a href="contact.html">Contact Us</a></th>[m
+[32m+[m[32m                    </tr>[m
+[32m+[m[41m     [m
+[32m+[m[41m              [m
+[32m+[m[32m        </div>[m
+[32m+[m[41m         [m
+[32m+[m[32m    </header>[m
+[32m+[m
+[32m+[m[32m<main>[m
+[32m+[m[32m   <!--==========================[m
+[32m+[m[32m      Your Privacy[m
+[32m+[m[32m    ============================-->[m
+[32m+[m[32m    <section id="faq" class="section-bg">[m
+[32m+[m[32m        <div class="container-fluid">[m
+[32m+[m[41m  [m
+[32m+[m[32m          <div class="row">[m
+[32m+[m[41m            [m
+[32m+[m[32m            <div class="col-lg-6 content" data-aos="fade-left">[m
+[32m+[m[32m                <h2><strong>Privacy Policy</strong></h2>[m
+[32m+[m[32m                <br>[m
+[32m+[m[32m              <p>[m
+[32m+[m[32m                Thank you for visiting our web site. This privacy policy tells you how we use personal information collected at this site. Please read this privacy policy before using the site or submitting any personal information. By using the site, you are accepting the practices described in this privacy policy. These practices may be changed, but any changes will be posted and changes will only apply to activities and information on a going forward, not retroactive basis. You are encouraged to review the privacy policy whenever you visit the site to make sure that you understand how any personal information you provide will be used.[m
+[32m+[m
+[32m+[m[32mNote: the privacy practices set forth in this privacy policy are for this web site only. If you link to other web sites, please review the privacy policies posted at those sites.[m
+[32m+[m[32m              </p>[m
+[32m+[m[32m              <h3><strong>Collection of Information</strong> </h3>[m
+[32m+[m[32m              <p>We collect personally identifiable information, like names, postal addresses, email addresses, etc., when voluntarily submitted by our visitors. This information is only used to fulfill your specific request, unless you give us permission to use it in another manner, for example to add you to one of our mailing lists.</p>[m
+[32m+[m[32m              <h3><strong>Cookie/Tracking Technology</strong></h3>[m
+[32m+[m[32m              <p>The Site may use cookie and tracking technology depending on the features offered. Cookie and tracking technology are useful for gathering information such as browser type and operating system, tracking the number of visitors to the Site, and understanding how visitors use the Site. Cookies can also help customize the Site for visitors. Personal information cannot be collected via cookies and other tracking technology, however, if you previously provided personally identifiable information, cookies may be tied to such information. Aggregate cookie and tracking information may be shared with third parties.</p>[m
+[32m+[m[32m              <h3><strong>Distribution of Information</strong></h3>[m
+[32m+[m[32m              <p>We may share information with governmental agencies or other companies assisting us in fraud prevention or investigation. We may do so when: (1) permitted or required by law; or, (2) trying to protect against or prevent actual or potential fraud or unauthorized transactions; or, (3) investigating fraud which has already taken place. The information is not provided to these companies for marketing purposes.</p>[m
+[32m+[m[32m              <h3><strong>Commitment to Data Security</strong></h3>[m
+[32m+[m[32m              <p>Your personally identifiable information is kept secure. All emails and newsletters from this site allow you to opt out of further mailings.</p>[m
+[32m+[m[41m           [m
+[32m+[m[32m            </div>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </section>[m
+[32m+[m[32m    <!-- Your privacy -->[m
+[32m+[m
+[32m+[m
+[32m+[m[32m<!--==========================[m
+[32m+[m[32m      Footer[m
+[32m+[m[32m============================-->[m
+[32m+[m[32m    <section id="footer">[m
+[32m+[m[32m        <div class="container">[m
+[32m+[m[32m          <div class="row" data-aos="fade-up">[m
+[32m+[m[41m  [m
+[32m+[m[32m            <div class="col-lg-4 col-md-4">[m
+[32m+[m[32m              <div class="footer">[m
+[32m+[m[41m                [m
+[32m+[m[32m                  <div class="left item">[m
+[32m+[m[32m                    <a href=""><img src="logoWhiteMini.webp"[m
+[32m+[m[32m                        class="ui image left aligned" id="logo"></a>[m
+[32m+[m[32m                  </div>[m
+[32m+[m[41m                [m
+[32m+[m[32m                <div class="footer-links">[m
+[32m+[m[32m                    <a href="yourPrivacy.html">Your privacy</a>[m
+[32m+[m[32m                    <br>[m
+[32m+[m[32m                    <a href="termsOfService.html">Terms of service</a>[m
+[32m+[m[32m                    <br>[m
+[32m+[m[32m                    <a href="returnPolicy.html">Return policy</a>[m
+[32m+[m[32m                    <!-- bloque de email para que manden para mas informacion -->[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </section><!-- #Footer -->[m
+[32m+[m[32m    </main>[m[41m [m
+[32m+[m[32m</body>[m
+[32m+[m
+[32m+[m[32m</html>[m
+[32m+[m
