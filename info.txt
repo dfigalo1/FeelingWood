@@ -1,8 +1,10 @@
 
 
 HOME
+- Solo esta nav y Footer
 
 PRODUCTS
+- Hacer todo
 
 ABOUT US
 - Background attachment
@@ -12,6 +14,7 @@ FAQ
 - Tipografia correspondiente
 
 CONTACT US
+- Hoy lo hago, 8 de nov
 
 FOOTER
 - links a faq's (YA esta)
