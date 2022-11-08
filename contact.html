@@ -6,6 +6,7 @@
   <title>FeelingWood</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
 </head>
 
 <body>
@@ -28,40 +29,55 @@
       CONTACT
     ============================-->
     <section>
-      <div class="container-fluid">
+      <div id="contact" class="container-fluid">
         <div class="row">
-          <div id="contact" class="col-lg-6 content">
-            <h2><strong>FAQ</strong></h2>
-            <br>
-            <h3><strong>Are the planks made of synthetic wood or other imitations?</strong></h3>
-            <p>No! We use 100% authentic and exotic woods from all over the world. You will notice once you get the
-              sample box: the smell, the texture and the color don’t lie!</p>
-
-            <h3><strong>Do the planks have UV luster?</strong></h3>
-            <p>Yes! From both sides: it’s almost imperceptible but brings great protection. This is essential to ensure
-              the durability of the wood</p>
-
-            <h3><strong>My wall it’s not in great shape. Anything to keep in mind?</strong></h3>
-            <p>Clean the surface with a damp towel to remove any dust or particles. Before you start, the surface must
-              be dry! On a small and discreet area, stick a plank with pressure to ensure a good grip. After 48 hours,
-              verify that the paint or surface texture has generated a correct adhesion.</p>
-
-            <h3><strong>Is FEELING WOOD a DIY product?</strong></h3>
-            <p>Absolutely! Just follow the steps at our installation section. If you have any doubts or need online
-              help, just call us!</p>
-
-            <h3><strong>Let’s suppose I get bored of the planks… can I remove them?</strong></h3>
-            <p>It’s almost impossible to get bored of FEELING WOOD! But yes, you can remove the planks. It could take
-              some hard work (it works like a wallpaper) and after that you may need some repairs and painting.</p>
-
-            <h3><strong>How much do the planks last?</strong></h3>
-            <p>Our premium adhesive of double-sided tape is rated for 10 years, but could last even more!</p>
-
-          </div>
+            <div class="col-lg-3 col-md-4">
+                <div>
+                  <i class="ion-ios-location-outline"></i>
+                  <h2>Send us a message and we’ll get back to you shortly.</h2>
+                </div>
+              </div>
+    
+              <div class="col-lg-5 col-md-8">
+                <div class="form">
+                  <!-- <div id="sendmessage">Your message was sent. Thank you!</div>
+                  <div id="errormessage"></div> -->
+                  <form action="" method="post" role="form" class="contactForm">
+                    <div class="form-row">
+                      <div class="form-group col-lg-6">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="First Name"
+                          data-rule="minlen:4" data-msg="Please enter at least 4 characters" />
+                        <div class="validation"></div>
+                      </div>
+                      <div class="form-group col-lg-6">
+                        <input type="text" name="lastname" class="form-control" id="lastname" placeholder="Last Name"
+                          data-rule="minlen:4" data-msg="Please enter at least 4 characters" />
+                        <div class="validation"></div>
+                      </div>
+                      <div class="form-group col-lg-6">
+                        <input type="text" name="subject" class="form-control" id="subject" placeholder="Subject"
+                          data-rule="minlen:4" data-msg="Please enter at least 4 characters" />
+                        <div class="validation"></div>
+                      </div>
+                      <div class="form-group col-lg-6">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="email@example.com"
+                          data-rule="email" data-msg="Please enter a valid email address" />
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <textarea class="form-control" name="message" rows="5" data-rule="required"
+                        data-msg="Please write something for us" placeholder="Your message"></textarea>
+                      <div class="validation"></div>
+                    </div>
+                    <div class="text-center"><button type="submit" title="Send Message">SEND</button></div>
+                  </form>
+                </div>
+              </div>
         </div>
       </div>
     </section>
-    <!-- Your privacy -->
+    <!-- Contact -->
 
 
     <!--==========================
