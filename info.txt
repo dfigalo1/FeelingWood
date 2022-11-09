@@ -1,3 +1,6 @@
+Tipografia correspondiente
+Imagenes correspondientes
+
 
 HOME
 - Solo esta nav y Footer
@@ -6,29 +9,25 @@ PRODUCTS
 - Hacer todo
 
 ABOUT US
-- Background attachment
+- Retoques
 
 FAQ
-- Tiene que estar centrado el texto como en bloque. (Como esta en la pagina me parece mucho)
-- Tipografia correspondiente
+- Retoques
 
 CONTACT US
 - config del formulario
 
 FOOTER
-- links a faq's (YA esta)
 - Funcionamiento de boton subscribe
 - logo de redes?
 
-Link a faq's
+Link del Footer
 
 YOUR PRIVACY
-- Tiene que estar centrado el texto como en bloque. (Como esta en la pagina me parece mucho)
 - Tipografia correspondiente
 
 TERMS OF SERVICE
 - Esta seccion no esta, hizo quete llevara a Contact Us (pedirle la informacion que corresponde a esta pagina)
 
 RETURN POLICY
-- Tiene que estar centrado el texto como en bloque. (Como esta en la pagina me parece mucho)
 - Tipografia correspondiente

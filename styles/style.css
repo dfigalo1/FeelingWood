@@ -91,23 +91,46 @@ h1, h2, h3, h4, h5, h6 {
   background: #eff5f5;
 }
 
+/* Index
+--------------------------------*/
+#background-index-one{
+  background-image:  url("../images/indexwal1.jpg");  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20em;
+}
+.feature-img-right {
+  max-width: 100%;
+  float: right;
+  padding: 0 0 30px 30px;
+}
+
+
 /* About Us Section
 --------------------------------*/
 
-#background {
-  background-image:  url("../images/background.jpg");  
-  font-size: 35px;  
-  background-attachment: scroll;  
+#background-about {
+  background-image:  url("../images/tools.jpg");  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20em;
   }
 
+.background-text{
+  color: #eff5f5;
+  text-align: center;
+  padding-top: 4em;
+}
+
 #about {
-  padding: 30px 20px;
+  padding: 30px 150px 30px 150px;
   display: block;
   position: center;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   line-height: 1;
-  padding-right: 20px;
 }
 
 
@@ -115,14 +138,21 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------*/
 
 #faq {
-  padding: 30px 20px;
+  padding: 30px 150px 30px 150px;
   display: block;
   position: center;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   line-height: 1;
-  padding-right: 20px;
 }
+
+#background-faq {
+  background-image:  url("../images/answer-faq.jpg");  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20em;
+  }
 
 @media (max-width: 768px) {
   #faq #faq-list a {
@@ -139,7 +169,6 @@ h1, h2, h3, h4, h5, h6 {
 #contact {
   background-image:  url("../images/47074-ai.svg");  
   color: #fff;
-
   }
 
 #contact {
@@ -357,3 +386,23 @@ form .form-row .textarea{
 .wrapper #click{
   display: none;
 }
+
+/*--------------------------------------------------------------
+# Footer LINKS
+--------------------------------------------------------------*/
+
+/* Return policy */
+/* Terms of service */
+/* Your privacy */
+
+#faqsLinks{
+  padding: 30px 150px 30px 150px;
+    background-image:  url("../images/47074-ai.svg");  
+    color: #fff;
+    display: block;
+    position: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 1;
+}
+
