@@ -1,5 +1,4 @@
 
-
 HOME
 - Solo esta nav y Footer
 
@@ -14,15 +13,15 @@ FAQ
 - Tipografia correspondiente
 
 CONTACT US
-- centrar boton
 - config del formulario
 
 FOOTER
 - links a faq's (YA esta)
-- Suscribase a nuestro newsletter: mail + bton de enviar
+- Funcionamiento de boton subscribe
 - logo de redes?
 
 Link a faq's
+
 YOUR PRIVACY
 - Tiene que estar centrado el texto como en bloque. (Como esta en la pagina me parece mucho)
 - Tipografia correspondiente
@@ -33,5 +32,3 @@ TERMS OF SERVICE
 RETURN POLICY
 - Tiene que estar centrado el texto como en bloque. (Como esta en la pagina me parece mucho)
 - Tipografia correspondiente
-
-CONTACT US
