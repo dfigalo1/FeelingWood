@@ -1,0 +1,553 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  background-color: #0f2233;
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+  margin: 0px 64px 0px 64px;
+}
+
+#nav {
+  padding: 20px 20px 36px 0px;
+  background-color: #0f2233;
+  position: fixed;
+  width: 100%;
+}
+
+#nav a{
+  font-family: raleway-semibold, raleway, sans-serif;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 0.5s;
+  padding: 0px 20px 8px 20px;
+  letter-spacing: 1px;
+  width: 20%;
+}
+#nav a.logo{
+    padding: 0px;
+    position: relative;
+    
+}
+.padding{
+  padding-left: 12px;  
+}
+.lenguaje{
+    height: 20px;
+}
+#nav a.links:hover, a .links:focus, a .links:active {
+    border: 2px;
+    border-style: inset;
+    border-top: none;
+    border-left:none; 
+    font-weight:bold;
+    
+  
+}
+
+p {
+  padding: 0;
+  margin: 0 0 30px 0;
+  line-height : 36px;
+  font-size: 18px;
+  color : #080000;
+  font-family: raleway-semibold, raleway, sans-serif;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Trend Sans';
+  src: url('../fonts/Trend\ Sans\ W00\ Four.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Back to top button */
+
+/* .back-to-top {
+  position: fixed;
+  display: none;
+  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  color: #fff;
+  padding: 2px 20px 8px 20px;
+  font-size: 16px;
+  border-radius: 4px 4px 0 0;
+  right: 15px;
+  bottom: 0;
+  transition: none;
+}
+
+.back-to-top:focus {
+  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  color: #fff;
+  outline: none;
+}
+
+.back-to-top:hover {
+  background: #1dc8cd;
+  color: #fff;
+} */
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  padding: 30px 0;
+  height: 92px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+}
+
+
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+
+
+/* Section with background
+--------------------------------*/
+.section-bg {
+  background: #eff5f5;
+}
+
+/* Index
+--------------------------------*/
+#background-index-one{
+  background-image:  url("../images/ImageIndex.jpg");  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20em;
+  padding-bottom: 200px;
+}
+
+#background-index-one h1 {
+    font-family: "Trend Sans";
+    font-size: 80px;
+    font-weight: 400;
+    margin: 0 0 20px 700px;
+    padding: 0;
+    color: #eff5f5;
+}
+
+#sectionYellow h2 {
+  font-family: "Trend Sans";
+  font-weight: 400;
+  padding-left: 20%;
+  color: #004F53;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+.feature-img-right {
+  max-width: 100%;
+  float: right;
+  padding: 0 0 30px 30px;
+}
+
+.container-items {
+  display: flex;
+  padding: 10px 0 0 5px;
+}
+
+.item {
+ margin: 5%;
+ font-family: "Raleway";
+}
+
+.yellow {
+  background-color: #dc990f;
+  color: #004F53;
+  font-size: 40px;
+  padding-left: 20%;
+}
+
+#title {
+    font-family: "Raleway";
+    font-size: 30px;
+    padding-top: 5%;
+    color: #eff5f5;
+}
+
+.section-title {
+  background-color: #3e2318;
+}
+
+#background-index-two {
+  background-image:  url("../images/imageIndex3.jpg");  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20em;
+  padding-bottom: 200px;
+}
+
+.button {
+  background: #004F53;
+  color: #eff5f5;
+  display: inline-block;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 38%;
+  font-family: "Trend Sans";
+}
+
+.titleTrend {
+  font-family: "Trend Sans";
+  color: #eff5f5;
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-left: 30%;
+  padding: 0;
+}
+
+.container-products {
+  display: flex;
+
+}
+
+#pure {
+  background-image:  url("../images/pure.png");  
+}
+
+#colors {
+  background-image:  url("../images/colors.jpg");  
+}
+#design {
+  background-image:  url("../images/design.png");  
+}
+#pine {
+  background-image:  url("../images/pine.png");  
+}
+
+/* About Us Section
+--------------------------------*/
+
+#background-about {
+  background-image:  url("../images/tools.jpg");  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
+}
+
+h1{
+    font-family: "Trend Sans";
+    font-size: 72px;
+    font-weight: 400;
+    margin: 0px 0px 20px 400px;
+    padding-top: 400px;
+    text-align: center;
+    letter-spacing: 12px;
+    color: #eff5f5;
+
+}
+.black1 {
+    color : #080000;
+    font-family: raleway-semibold, raleway, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+#about {
+  padding: 30px 150px 30px 150px;
+  display: block;
+  position: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 1;
+}
+
+
+/* Frequently Asked Questions Section
+--------------------------------*/
+
+#faq {
+  padding: 30px 150px 30px 150px;
+  display: block;
+  position: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#background-faq {
+  background-image:  url("../images/answer-faq.jpg");  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20em;
+  }
+
+@media (max-width: 768px) {
+  #faq #faq-list a {
+    font-size: 18px;
+  }
+  #faq #faq-list i {
+    top: 13px;
+  }
+}
+
+/* Contact US
+--------------------------------*/
+
+#contact {
+  background-image:  url("../images/47074-ai.svg");  
+  color: #fff;
+  }
+
+#contact {
+  padding: 30px 20px;
+  display: block;
+  position: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  padding-right: 20px;
+}
+
+.container{
+  max-width: 800px;
+  width: 800px;
+  padding: 25px 40px 10px 220px;
+}
+
+.container form .form-row{
+  display: flex;
+  margin: 32px 0;
+}
+form .form-row .input-data{
+  width: 100%;
+  height: 40px;
+  margin: 0 20px;
+  position: relative;
+}
+form .form-row .textarea{
+  height: 70px;
+}
+.input-data input,
+.textarea textarea {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid #dc990f;
+  border-radius: 5px;
+}
+.input-data input:focus ~ label, .textarea textarea:focus ~ label,
+.input-data input:valid ~ label, .textarea textarea:valid ~ label{
+  transform: translateY(-13px);
+  font-size: 14px;
+  color: #004F53;
+  padding: 0px 10px;
+}
+
+.input-data label{
+  position: absolute;
+  pointer-events: none;
+  bottom: 10px;
+  font-size: 16px;
+}
+
+.textarea label{
+  width: 70%;
+  bottom: 40px;
+  background: #fff;
+}
+
+.submit-btn{
+  padding-left: 300px;
+}
+
+.submit-btn .input-data{
+  overflow: hidden;
+  height: 45px!important;
+  width: 25%!important;
+  border-radius: 5px;
+}
+
+.submit-btn .input-data .inner{
+  height: 100%;
+  width: 300%;
+  position: absolute;
+  background-color:#dc990f ;
+}
+
+.submit-btn .input-data input{
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  position: relative;
+}
+
+/* @media (max-width: 700px) {
+  .container .text{
+    font-size: 30px;
+  }
+  .container form{
+    padding: 10px 0 0 0;
+  }
+  .container form .form-row{
+    display: block;
+  }
+  form .form-row .input-data{
+    margin: 35px 0!important;
+  }
+  .submit-btn .input-data{
+    width: 40%!important;
+  }
+} */
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer {
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px 30px;
+  background-color: #0f2233;
+}
+
+
+#footer .footer-links a {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+#footer .footer-links a:hover {
+  color: #dc990f;
+}
+
+.wrapper{
+  height: 60px;
+  width: 300px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-left: 700px;
+  margin-top: -70px;
+}
+.wrapper .btn-1{
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  color: #004F53;
+  background: #fff;
+  line-height: 60px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  user-select: none;
+  cursor: pointer;
+  box-shadow: 5px 5px 30px rgba(0,0,0,.2);
+  transition: 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.wrapper .btn-1:active{
+  transform: scale(0.9);
+}
+#click:checked ~ .btn-1{
+  height: 40px;
+  width: 100px;
+  opacity: 0;
+  pointer-events: none;
+}
+.wrapper .field{
+  height: 100%;
+  width: 0%;
+  opacity: 0;
+  pointer-events: none;
+  position: relative;
+  transition: 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+#click:checked ~ .field{
+  width: 100%;
+  opacity: 1;
+  pointer-events: auto;
+}
+.wrapper .field input{
+  height: 100%;
+  width: 50%;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 0 130px 0 15px;
+  font-size: 20px;
+  outline: none;
+  box-shadow: 5px 5px 30px rgba(0,0,0,.2);
+}
+.wrapper .field input::placeholder{
+  color: #999;
+  font-size: 18px;
+}
+.wrapper .field .btn-2{
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #fff;
+  line-height: 40px;
+  background: #004F53;
+  height: 40px;
+  width: 100px;
+  user-select: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.wrapper .field .btn-2:active{
+  transform: translateY(-50%) scale(0.9);
+}
+.wrapper #click{
+  display: none;
+}
+
+/*--------------------------------------------------------------
+# Footer LINKS
+--------------------------------------------------------------*/
+
+/* Return policy */
+/* Terms of service */
+/* Your privacy */
+
+#faqsLinks{
+  padding: 30px 150px 30px 150px;
+    background-image:  url("../images/47074-ai.svg");  
+    color: #fff;
+    display: block;
+    position: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 1;
+}
+
