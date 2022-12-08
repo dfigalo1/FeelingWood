@@ -6,6 +6,11 @@ body {
   color: #666666;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
+
+/*  height:100%;
+  margin:0;
+  display: flex;
+  flex-direction: column; */
 }
 
 #nav {
@@ -21,15 +26,12 @@ body {
   padding: 0px 50px;
 }
 
-#nav a:hover, a:active, a:focus {
+#nav a:hover,
+a:active,
+a:focus {
   color: #dc990f;
   outline: none;
   text-decoration: none;
-}
-
-p {
-  padding: 0;
-  margin: 0 0 30px 0;
 }
 
 @font-face {
@@ -86,7 +88,6 @@ p {
   z-index: 997;
 }
 
-
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
@@ -100,80 +101,253 @@ p {
 
 /* Index
 --------------------------------*/
-#background-index-one{
-  background-image:  url("../images/ImageIndex.jpg");  
+#background-index-one {
+  background-image: url("../images/ImageIndex.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 20em;
   padding-bottom: 200px;
 }
 
 #background-index-one h1 {
-    font-family: "Trend Sans";
-    font-size: 80px;
-    font-weight: 400;
-    margin: 0 0 20px 700px;
-    padding: 0;
-    color: #eff5f5;
-}
-
-#sectionYellow h2 {
   font-family: "Trend Sans";
+  font-size: 80px;
   font-weight: 400;
-  padding-left: 20%;
-  color: #0f2233;
-  padding-top: 0;
-  margin-bottom: 0;
+  text-align: right;
+  color: #eff5f5;
+  padding-right: 5%;
 }
 
-.feature-img-right {
-  max-width: 100%;
-  float: right;
-  padding: 0 0 30px 30px;
-}
-
-.item {
-margin-left: 5%;
- font-family: "Raleway";
-   margin-bottom: -30px;
-}
-
-.yellow {
+.index-one-yellow {
   background-color: #dc990f;
   color: #0f2233;
   font-size: 40px;
-  padding-left: 20%;
+  text-align: center;
 }
 
-#title {
-    font-family: "Raleway";
-    font-size: 30px;
-    padding-top: 5%;
-    color: #eff5f5;
+.container-items {
+  display: flex;
+  flex-basis: auto;
+  width: 100%;
+}
+
+.item {
+  font-family: "Raleway";
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .section-title {
   background-color: #3e2318;
 }
 
-.container-items {
-  display: flex;
-  padding: 10px 0 0 5px;
+#title-item {
+  font-family: "Raleway";
+  font-size: 30px;
+  padding-top: 5%;
+  color: #eff5f5;
+}
+
+#title-item {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#sectionYellow h2 {
+  font-family: "Trend Sans";
+  text-align: center;
+  font-weight: 400;
+  margin-top: -4px;
+  color: #0f2233;
 }
 
 #background-index-two {
-  background-image:  url("../images/imageIndex3.jpg");  
+  background-image: url("../images/imageIndex3.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 20em;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
 }
 
 .button {
+  font-family: "Trend Sans";
+  background: #0f2233;
+  color: #eff5f5;
+  display: inline-block;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  padding: 30px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #dc990f;
+}
+
+.titleTrend {
+  font-family: "Trend Sans";
+  color: #eff5f5;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.container-products {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+#pure {
+  background-image: url("../images/pure.png");
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.bluecontainer {
+  background-color: #0f2233;
+  padding-bottom: 5%;
+}
+
+#pure h1 {
+  font-family: "Trend Sans";
+  color: #eff5f5;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 400;
+}
+
+#pure p {
+  color: #eff5f5;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 400;
+  padding: 0 5% 0 5%;
+}
+
+#colors {
+  background-image: url("../images/colors.jpg");
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#colors h1 {
+  font-family: "Trend Sans";
+  color: #eff5f5;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 400;
+}
+
+#colors p {
+  color: #eff5f5;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 400;
+  padding: 0 5% 0 5%;
+}
+
+#design {
+  background-image: url("../images/design.png");
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#design h1 {
+  font-family: "Trend Sans";
+  color: #eff5f5;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 400;
+}
+
+#design p {
+  color: #eff5f5;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 400;
+  padding: 0 5% 0 5%;
+}
+
+#pine {
+  background-image: url("../images/pine.png");
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#pine h1 {
+  font-family: "Trend Sans";
+  color: #eff5f5;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 400;
+}
+
+#pine p {
+  color: #eff5f5;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 400;
+  padding: 0 5% 0 5%;
+}
+
+.buttonprod {
+  font-family: "Trend Sans";
   background: #dc990f;
   color: #0f2233;
+  display: inline-block;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.buttonprod:hover {
+  background-color: #0f2233;
+  color: #dc990f;
+}
+
+#sectionSamples {
+  background: #dc990f;
+  display: flex;
+  flex-basis: auto;
+  width: 100%;
+  margin-bottom: -4px;
+}
+
+#sectionSamples h1 {
+  font-family: "Trend Sans";
+  color: #0f2233;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 400;
+  padding-left: 5%;
+}
+
+#sectionSamples p {
+  font-family: "Raleway";
+  font-size: 30px;
+  padding-left: 15%;
+  color: #eff5f5;
+}
+
+.buttonSamples {
+  font-family: "Trend Sans";
+  background: #0f2233;
+  color: #eff5f5;
   display: inline-block;
   border-radius: 10px;
   text-decoration: none;
@@ -183,161 +357,147 @@ margin-left: 5%;
   width: 150px;
   cursor: pointer;
   margin-left: 35%;
-  font-family: "Trend Sans";
 }
 
-.titleTrend {
-  font-family: "Trend Sans";
-  color: #eff5f5;
-  font-size: 50px;
-  font-weight: 400;
-  margin-top: 0px;
-  margin-left: 30%;
-  margin-bottom: 10px;
-  padding: 0;
+.buttonSamples:hover {
+  color: #dc990f;
 }
 
-.container-products {
+.products {
   display: flex;
-  padding: 0 10% 10% 10%;
+  padding-bottom: 5%;
 }
 
-#pure {
-  background-image:  url("../images/pure.png");
+.blueContainerProd {
+  background-color: #0f2233;
+  padding-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#background-products-one {
+  background-image: url("../images/backgroundProducts.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 200px;
+}
+
+#pureProducts {
+  background-image: url("../images/pureProducts.webp");
   padding-top: 10%;
   padding-bottom: 10%;
 }
 
-#pure .bluecontainer {
-background-color: #0f2233;
-padding-bottom: 5%;
-}
-
-#pure h1 {
-  font-family: "Trend Sans"; 
+#pureProducts h1 {
+  font-family: "Trend Sans";
   color: #eff5f5;
   font-size: 40px;
   text-align: center;
   font-weight: 400;
 }
 
-#pure p {
+#pureProducts p {
   color: #eff5f5;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   font-weight: 400;
-  padding: 0 10px 0 10px;
+  padding: 0 5% 0 5%;
 }
 
-#colors {
-  background-image:  url("../images/colors.jpg");
-  padding-top: 10%;
-  padding-bottom: 10%;  
-}
 
-#colors .bluecontainer {
-  background-color: #0f2233;
-  padding-bottom: 5%;
-  }
-  
-  #colors h1 {
-    font-family: "Trend Sans"; 
-    color: #eff5f5;
-    font-size: 40px;
-    text-align: center;
-    font-weight: 400;
-  }
-  
-  #colors p {
-    color: #eff5f5;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 400;
-    padding: 0 10px 0 10px;
-  }
-
-#design {
-  background-image:  url("../images/design.png");
+#designProducts {
+  background-image: url("../images/designProducts.webp");
   padding-top: 10%;
   padding-bottom: 10%;
 }
 
-#design .bluecontainer {
-  background-color: #0f2233;
-  padding-bottom: 5%;
-  }
-  
-  #design h1 {
-    font-family: "Trend Sans"; 
-    color: #eff5f5;
-    font-size: 40px;
-    text-align: center;
-    font-weight: 400;
-  }
-  
-  #design p {
-    color: #eff5f5;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 400;
-    padding: 0 10px 0 10px;
-  }
+#designProducts h1 {
+  font-family: "Trend Sans";
+  color: #eff5f5;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 400;
+}
 
-#pine {
-  background-image:  url("../images/pine.png");
+#designProducts p {
+  color: #eff5f5;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 400;
+  padding: 0 5% 0 5%;
+}
+
+#pineProducts {
+  background-image: url("../images/pineProducts.webp");
   padding-top: 10%;
   padding-bottom: 10%;
 }
 
-#pine .bluecontainer {
-  background-color: #0f2233;
+#pineProducts h1 {
+  font-family: "Trend Sans";
+  color: #eff5f5;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 400;
 }
-  
-  #pine h1 {
-    font-family: "Trend Sans"; 
-    color: #eff5f5;
-    font-size: 40px;
-    text-align: center;
-    font-weight: 400;
-  }
-  
-  #pine p {
-    color: #eff5f5;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 400;
-    padding: 0 10px 0 10px;
-  }
 
-  .buttonprod {
-    background: #dc990f;
-    color: #0f2233;
-    display: inline-block;
-    border-radius: 10px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 15px;
-    padding: 20px;
-    width: 150px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin-left: 10%;
-    font-family: "Trend Sans";
-  }
+#pineProducts p {
+  color: #eff5f5;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 400;
+  padding: 0 5% 0 5%;
+}
+
+.section-unique {
+  background-color: #dc990f;
+  margin-top: -5%;
+}
+
+.container-products #brown {
+  background-color: #3e2318;
+}
+
+.container-products #brown h3 {
+  background-color: #dc990f;
+  color: #3e2318;
+  text-align: center;
+}
+
+.container-products #brown p {
+  color: #eff5f5;
+  text-align: center;
+}
+
+.container-products #white {
+  background-color: #eff5f5;
+}
+
+.container-products #white h3 {
+  background-color: #dc990f;
+  color: #3e2318;
+  text-align: center;
+}
+
+.container-products #white p {
+  color: #3e2318;
+  text-align: center;
+}
 
 
 /* About Us Section
 --------------------------------*/
 
 #background-about {
-  background-image:  url("../images/tools.jpg");  
+  background-image: url("../images/tools.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 20em;
 }
 
-.background-text{
+.background-text {
   color: #eff5f5;
   text-align: center;
   padding-top: 4em;
@@ -366,17 +526,18 @@ padding-bottom: 5%;
 }
 
 #background-faq {
-  background-image:  url("../images/answer-faq.jpg");  
+  background-image: url("../images/answer-faq.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 20em;
-  }
+}
 
 @media (max-width: 768px) {
   #faq #faq-list a {
     font-size: 18px;
   }
+
   #faq #faq-list i {
     top: 13px;
   }
@@ -386,9 +547,9 @@ padding-bottom: 5%;
 --------------------------------*/
 
 #contact {
-  background-image:  url("../images/47074-ai.svg");  
+  background-image: url("../images/47074-ai.svg");
   color: #fff;
-  }
+}
 
 #contact {
   padding: 30px 20px;
@@ -400,25 +561,28 @@ padding-bottom: 5%;
   padding-right: 20px;
 }
 
-.container{
+.container {
   max-width: 800px;
   width: 800px;
   padding: 25px 40px 10px 220px;
 }
 
-.container form .form-row{
+.container form .form-row {
   display: flex;
   margin: 32px 0;
 }
-form .form-row .input-data{
+
+form .form-row .input-data {
   width: 100%;
   height: 40px;
   margin: 0 20px;
   position: relative;
 }
-form .form-row .textarea{
+
+form .form-row .textarea {
   height: 70px;
 }
+
 .input-data input,
 .textarea textarea {
   display: block;
@@ -429,46 +593,49 @@ form .form-row .textarea{
   border-bottom: 2px solid #dc990f;
   border-radius: 5px;
 }
-.input-data input:focus ~ label, .textarea textarea:focus ~ label,
-.input-data input:valid ~ label, .textarea textarea:valid ~ label{
+
+.input-data input:focus~label,
+.textarea textarea:focus~label,
+.input-data input:valid~label,
+.textarea textarea:valid~label {
   transform: translateY(-13px);
   font-size: 14px;
   color: #0f2233;
   padding: 0px 10px;
 }
 
-.input-data label{
+.input-data label {
   position: absolute;
   pointer-events: none;
   bottom: 10px;
   font-size: 16px;
 }
 
-.textarea label{
+.textarea label {
   width: 70%;
   bottom: 40px;
   background: #fff;
 }
 
-.submit-btn{
+.submit-btn {
   padding-left: 300px;
 }
 
-.submit-btn .input-data{
+.submit-btn .input-data {
   overflow: hidden;
-  height: 45px!important;
-  width: 25%!important;
+  height: 45px !important;
+  width: 25% !important;
   border-radius: 5px;
 }
 
-.submit-btn .input-data .inner{
+.submit-btn .input-data .inner {
   height: 100%;
   width: 300%;
   position: absolute;
-  background-color:#dc990f ;
+  background-color: #dc990f;
 }
 
-.submit-btn .input-data input{
+.submit-btn .input-data input {
   background: none;
   border: none;
   color: #fff;
@@ -502,14 +669,14 @@ form .form-row .textarea{
 # Footer
 --------------------------------------------------------------*/
 
-#footer {
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-  padding: 20px 30px;
+.footer {
   background-color: #0f2233;
+  align-items: center;
+  text-align: center;
+  padding-top: 3%;
 }
 
-
-#footer .footer-links a {
+.footer .footer-links a {
   font-size: 14px;
   line-height: 24px;
   font-family: "Montserrat", sans-serif;
@@ -517,22 +684,23 @@ form .form-row .textarea{
   text-decoration: none;
 }
 
-#footer .footer-links a:hover {
+.footer .footer-links a:hover {
   color: #dc990f;
 }
 
-.wrapper{
+.wrapper {
   height: 60px;
   width: 300px;
   display: flex;
   text-align: center;
-  align-items: center;
   justify-content: center;
   position: relative;
-  margin-left: 700px;
-  margin-top: -70px;
+  margin-top: 2%;
+  margin-left: 37%;
+  margin-bottom: 2%;
 }
-.wrapper .btn-1{
+
+.wrapper .btn-1 {
   position: absolute;
   height: 100%;
   width: 50%;
@@ -544,32 +712,37 @@ form .form-row .textarea{
   border-radius: 5px;
   user-select: none;
   cursor: pointer;
-  box-shadow: 5px 5px 30px rgba(0,0,0,.2);
-  transition: 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, .2);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-.wrapper .btn-1:active{
+
+.wrapper .btn-1:active {
   transform: scale(0.9);
 }
-#click:checked ~ .btn-1{
+
+#click:checked~.btn-1 {
   height: 40px;
   width: 100px;
   opacity: 0;
   pointer-events: none;
 }
-.wrapper .field{
+
+.wrapper .field {
   height: 100%;
   width: 0%;
   opacity: 0;
   pointer-events: none;
   position: relative;
-  transition: 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-#click:checked ~ .field{
+
+#click:checked~.field {
   width: 100%;
   opacity: 1;
   pointer-events: auto;
 }
-.wrapper .field input{
+
+.wrapper .field input {
   height: 100%;
   width: 50%;
   border: 2px solid #fff;
@@ -577,13 +750,15 @@ form .form-row .textarea{
   padding: 0 130px 0 15px;
   font-size: 20px;
   outline: none;
-  box-shadow: 5px 5px 30px rgba(0,0,0,.2);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, .2);
 }
-.wrapper .field input::placeholder{
+
+.wrapper .field input::placeholder {
   color: #999;
   font-size: 18px;
 }
-.wrapper .field .btn-2{
+
+.wrapper .field .btn-2 {
   position: absolute;
   top: 50%;
   right: 15px;
@@ -599,10 +774,12 @@ form .form-row .textarea{
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.wrapper .field .btn-2:active{
+
+.wrapper .field .btn-2:active {
   transform: translateY(-50%) scale(0.9);
 }
-.wrapper #click{
+
+.wrapper #click {
   display: none;
 }
 
@@ -614,14 +791,13 @@ form .form-row .textarea{
 /* Terms of service */
 /* Your privacy */
 
-#faqsLinks{
+#faqsLinks {
   padding: 30px 150px 30px 150px;
-    background-image:  url("../images/47074-ai.svg");  
-    color: #fff;
-    display: block;
-    position: center;
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    line-height: 1;
+  background-image: url("../images/47074-ai.svg");
+  color: #fff;
+  display: block;
+  position: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 1;
 }
-
