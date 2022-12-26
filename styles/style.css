@@ -582,32 +582,7 @@ a:focus {
 /* Frequently Asked Questions Section
 --------------------------------*/
 
-#faq {
-  padding: 30px 150px 30px 150px;
-  display: block;
-  position: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  line-height: 1;
-}
 
-#background-faq {
-  background-image: url("../images/answer-faq.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 20em;
-}
-
-@media (max-width: 768px) {
-  #faq #faq-list a {
-    font-size: 18px;
-  }
-
-  #faq #faq-list i {
-    top: 13px;
-  }
-}
 
 /* Contact US
 --------------------------------*/
