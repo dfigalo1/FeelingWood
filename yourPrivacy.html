@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>FeelingWood</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="styles/about.css">
   <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
 </head>
 
@@ -13,27 +13,37 @@
   <header>
     <div id="nav">
       <tr>
-        <th> <a><img src="./images/LogoWhite.png" /></a></th>
-        <th><a href="index.html">Home</a></th>
-        <th><a href="products.html">Products</a></th>
-        <th><a href="about.html">About Us</a></th>
-        <th><a href="faq.html">FAQ</a></th>
-        <th><a href="contact.html">Contact Us</a></th>
+        <th> <a class="logo"><img src="./images/LogoWhite.png" /></a></th>
+        <th><a class = "links" href="index.html">Home</a></th>
+        <th><a class = "links" href="products.html">Products</a></th>
+        <th><a class = "links" href="about.html">About Us</a></th>
+        <th><a class = "links" href="faq.html">FAQ</a></th>
+        <th><a class = "links" href="contact.html">Contact Us</a></th>
+        <th><a class = "links" href="shop.html">Shop</a></th>
+        <th><a href="cart.html"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+        </svg></a></th>
+        <th><a href="login.html"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+        </svg><span class="padding">log In</span></a></th>
+        <th><a href="lenguage.html"><img src="./images/USA.png" alt="" srcset="" class="lenguaje"/><span class="padding"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+        </svg></span></a></th>
       </tr>
     </div>
+
   </header>
 
   <main>
     <!--==========================
       Your Privacy
     ============================-->
-    <section id="faqsLinks">
+    <section id="about" class="section-bg">
       <div class="container-fluid">
-
         <div class="row">
-
-          <div class="col-lg-6 content" data-aos="fade-left">
-            <h2><strong>Privacy Policy</strong></h2>
+          <div class="col-lg-6 content">
+            <h2 class="black1" style="padding-top: 10%;"><strong>Privacy Policy</strong></h2>
             <br>
             <p>
               Thank you for visiting our web site. This privacy policy tells you how we use personal information
@@ -43,15 +53,17 @@
               information on a going forward, not retroactive basis. You are encouraged to review the privacy policy
               whenever you visit the site to make sure that you understand how any personal information you provide will
               be used.
-
+              <br>
               Note: the privacy practices set forth in this privacy policy are for this web site only. If you link to
               other web sites, please review the privacy policies posted at those sites.
             </p>
+            <br>
             <h3><strong>Collection of Information</strong> </h3>
             <p>We collect personally identifiable information, like names, postal addresses, email addresses, etc., when
               voluntarily submitted by our visitors. This information is only used to fulfill your specific request,
               unless you give us permission to use it in another manner, for example to add you to one of our mailing
               lists.</p>
+            <br>
             <h3><strong>Cookie/Tracking Technology</strong></h3>
             <p>The Site may use cookie and tracking technology depending on the features offered. Cookie and tracking
               technology are useful for gathering information such as browser type and operating system, tracking the
@@ -59,22 +71,23 @@
               customize the Site for visitors. Personal information cannot be collected via cookies and other tracking
               technology, however, if you previously provided personally identifiable information, cookies may be tied
               to such information. Aggregate cookie and tracking information may be shared with third parties.</p>
+            <br>
             <h3><strong>Distribution of Information</strong></h3>
             <p>We may share information with governmental agencies or other companies assisting us in fraud prevention
               or investigation. We may do so when: (1) permitted or required by law; or, (2) trying to protect against
               or prevent actual or potential fraud or unauthorized transactions; or, (3) investigating fraud which has
               already taken place. The information is not provided to these companies for marketing purposes.</p>
+            <br>
             <h3><strong>Commitment to Data Security</strong></h3>
             <p>Your personally identifiable information is kept secure. All emails and newsletters from this site allow
               you to opt out of further mailings.</p>
-
           </div>
         </div>
       </div>
     </section>
-    <!-- Your privacy -->
+    <!-- Your Privacy -->
 
-
+ 
 <!--==========================
       Footer
 ============================-->
