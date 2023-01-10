@@ -1,33 +1,19 @@
-Tipografia correspondiente
-Imagenes correspondientes
+Videos correspondientes
+Texto de la seccion "Term of service" 
 
+Home
+- Ultimas 2 secciones de home (sin contar subscribe)
 
-HOME
-- Solo esta nav y Footer
+Products
+- Ultimas 2 secciones de home (sin contar subscribe)
 
-PRODUCTS
-- Hacer todo
+sample - Colors - Design - Pure - Pine
+Que abran una pestaña con la ficha del producto para comprar
 
-ABOUT US
-- Retoques
-
-FAQ
-- Retoques
-
-CONTACT US
+Contact us
 - config del formulario
+- Recaptcha
 
+NAVBAR
 FOOTER
-- Funcionamiento de boton subscribe
-- logo de redes?
 
-Link del Footer
-
-YOUR PRIVACY
-- Tipografia correspondiente
-
-TERMS OF SERVICE
-- Esta seccion no esta, hizo quete llevara a Contact Us (pedirle la informacion que corresponde a esta pagina)
-
-RETURN POLICY
-- Tipografia correspondiente
