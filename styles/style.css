@@ -832,28 +832,26 @@ a:focus {
 .card .top-text p {
   font-size: 20px;
   font-weight: 600;
-  color: #0f2233;
-  line-height: 20px;
-}
-
-.card .top-text a {
-  font-family: "Trend Sans";
-  background: #0f2233;
-  color: #eff5f5;
-  display: inline-block;
-  border-radius: 10px;
-  text-decoration: none;
-  text-align: center;
-  font-size: 20px;
-  padding: 10px;
-  cursor: pointer;
-}
-
-.card .top-text a:hover {
   color: #dc990f;
+  line-height: 20px;
+  margin-bottom: 5%;
 }
 
+/* All Cards
+--------------------------------*/
 
+.modal-text{
+  margin-top: 20%;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+.div1, .div2 {
+  width: 50%;
+  float: left;
+}
 
 
 /* Contact US
@@ -1116,3 +1114,7 @@ form .form-row .textarea {
   font-size: 18px;
   line-height: 1;
 }
+
+
+
+
