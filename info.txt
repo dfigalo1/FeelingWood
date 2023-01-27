@@ -1,60 +1,13 @@
 Videos correspondientes
 Texto de la seccion "Term of service" 
 
-Home
-- Ultimas 2 secciones de home (sin contar subscribe)
+En las paginas:
+Home, Products (con todos los subpaginas), About Us, FAQ, Contact, Your privacy, Terms of service, 
+ Return policy.
 
-Products
-- Ultimas 2 secciones de home (sin contar subscribe)
+Esta todo falta Responsive
 
-sample - Colors - Design - Pure - Pine
-Que abran una pestaña con la ficha del producto para comprar
+Shop lo termino el Lunes
 
-Contact us
-- config del formulario
-- Recaptcha
+Falta Carrito y Log in
 
-NAVBAR
-FOOTER
-
-COLORS
-storm_grey_princess_tree.html
-pink_princess_tree.html
-grey_princes_tree.html
-green_princess_tree.html
-white_princess_tree.html
-aqua_princess_tree.html
-
-DESIGN
-tiger_pine_bricks.html 1
-old_grey_pine_bricks.html 2
-night_pine_bricks.html 3
-dark_night_pine_bricks.html 4
-zebra_pine_bricks.html 5
-strips.html
-lines.html
-
-PURE
-laurel_ayui
-guayacan
-green_scacia
-grapia
-broad_leaf_privet
-acacia
-lapacho
-cedar
-red_eucaliptus
-fireland_cherry
-princess_Tree
-guayubira
-
-PINE
-old_grey_pine
-night_pine 
-dark_night_pine
-zebra_Pine
-tiger_pine_bricks 1
-old_grey_pine_bricks 2
-night_pine_bricks 3
-dark_night_pine_bricks 4
-zebra_pine_bricks 5
