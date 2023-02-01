@@ -802,12 +802,12 @@ a:focus {
 
 .card {
   height: 290px;
-  width: 350px;
+  /* width: 350px; */
   margin: 0 20px;
   box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
   background: #dc990f;
-  transition: 0.4s ;
-  padding-bottom: 28%;
+  transition: 0.4s;
+  padding-bottom: 5%;
 }
 
 .card .img {
@@ -1032,15 +1032,66 @@ form .form-row .textarea {
   background-attachment: fixed;
   background-size: cover;
   padding-bottom: 200px;
-
 }
 
  .shop-yellow {
   background-color: #dc990f;
   color: #0f2233;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
-  padding-top: 5%;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+/* .content {
+  background-color: #eff5f5;
+} */
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #eff5f5;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #dc990f;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #666;
+   color: #eff5f5;
+}
+
+#myBtnContainer{
+  margin-bottom: 2%;
+  padding-top: 2%;
+}
+
+.content {
+  margin-bottom: 10%;
 }
 
 

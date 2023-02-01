@@ -8,11 +8,12 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
     <script src="js/main.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
     <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -34,12 +35,10 @@
         <!-- -->
         <section>
             <div>
-                <div id="background-design">
-                    <h1>Let's let our</h1>
-                    <h1>imagination</h1>
-                    <h1>fly</h1>
-                    <div class="index-one-yellow" style="text-align: right;padding-right: 3%;">
-                        <h3>Design Collection</h3>
+                <div id="background-shop">
+                    <br>
+                    <div class="index-one-yellow" style="text-align: right; padding-right: 3%; margin-top: 15%;">
+                        <h2>Shop All Our Products</h2>
                         <p>DIY Easy Peel and Stick Wall Paneling</p>
                     </div>
                 </div>
@@ -47,110 +46,618 @@
         </section>
         <!--  -->
 
-        <!-- -->
         <section class="section-bg">
 
-            <div class="container-color" style="padding-top: 5%;padding-bottom: 5%;">
-
-                <div class="card">
-                    <div class="img">
-                        <img src="images/collections/Tiger Pine Bricks.webp">
-                    </div>
-                    <div class="top-text">
-                        <div class="name">Tiger Pine Bricks</div>
-                        <p>Out of stock</p>
-                    </div>
-                    <a type="button" class="btn btn-warning" href="tiger_pine_bricks.html">
-                        Read More
-                    </a>
-                </div>
-
-                <div class="card">
-                    <div class="img">
-                        <img src="images/collections/Old Grey Pine Bricks.webp">
-                    </div>
-                    <div class="top-text">
-                        <div class="name">Old Grey Pine Bricks</div>
-                        <p>Out of stock</p>
-                    </div>
-                    <a type="button" class="btn btn-warning" href="old_grey_pine_bricks.html">
-                        Read More
-                    </a>
-                </div>
-
-                <div class="card">
-                    <div class="img">
-                        <img src="images/collections/Night Pine Bricks.webp">
-                    </div>
-                    <div class="top-text">
-                        <div class="name">Night Pine Bricks</div>
-                        <p>Out of stock</p>
-                    </div>
-                    <a type="button" class="btn btn-warning" href="night_pine_bricks.html">
-                        Read More
-                    </a>
-                </div>
-
+            <div id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> All</button>
+                <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+                <button class="btn" onclick="filterSelection('design')"> Design</button>
+                <button class="btn" onclick="filterSelection('pure')"> Pure</button>
+                <button class="btn" onclick="filterSelection('pine')"> Pine</button>
+                <button class="btn" onclick="filterSelection('samples')"> Samples</button>
             </div>
 
-            <div class="container-color" style="padding-top: 5%;padding-bottom: 5%;">
-                <div class="card">
-                    <div class="img">
-                        <img src="images/collections/Dark Night Pine Bricks.webp">
-                    </div>
-                    <div class="top-text">
-                        <div class="name">Dark Night Pine Bricks</div>
-                        <p>Out of stock</p>
-                    </div>
-                    <a type="button" class="btn btn-warning" href="dark_night_pine_bricks.html">
-                        Read More
-                    </a>
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <img src="images/collections/Zebra Pine Bricks.webp">
-                    </div>
-                    <div class="top-text">
-                        <div class="name">Zebra Pine Bricks</div>
-                        <p>Out of stock</p>
-                    </div>
-                    <a type="button" class="btn btn-warning" href="zebra_pine_bricks.html">
-                        Read More
-                    </a>
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <img src="images/collections/Strips.webp">
-                    </div>
-                    <div class="top-text">
-                        <div class="name">Strips</div>
-                        <p>Out of stock</p>
-                    </div>
-                    <a type="button" class="btn btn-warning" href="strips.html">
-                        Read More
-                    </a>
-                </div>
-            </div>
+            <!-- Portfolio Gallery Grid -->
+            <div class="row">
 
-            <div class="container-color" style="padding-top: 5%;padding-bottom: 5%;">
-                <div class="card">
-                    <div class="img">
-                        <img src="images/collections/Lines.webp">
+                <div class="column colors">
+                    <div class="content">
+                        <div class="card">
+                            <div class="img">
+                                <img src="images/collections/Storm Grey Princess Tree.webp">
+                            </div>
+                            <div style="padding-left: 2%;">
+                                <h4>Storm Grey Princess Tree</h4>
+                                <h5 style="color: #666;">Out of stock</h5>
+                            </div>
+                            <a type="button" class="btn btn-warning" href="storm_grey_princess_tree.html">
+                                Read More
+                            </a>
+                        </div>
                     </div>
-                    <div class="top-text">
-                        <div class="name">Lines</div>
-                        <p>Out of stock</p>
-                    </div>
-                    <a type="button" class="btn btn-warning" href="lines.html">
-                        Read More
-                    </a>
                 </div>
-            </div>
 
+                <div class="column colors">
+                    <div class="content">
+                        <div class="card">
+                            <div class="img">
+                                <img src="images/collections/Pink Princess Tree.webp">
+                            </div>
+                            <div style="padding-left: 2%;">
+                                <h4>Pink Princess Tree</h4>
+                                <h5 style="color: #666;">Out of stock</h5>
+                            </div>
+                            <a type="button" class="btn btn-warning" href="pink_princess_tree.html">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column colors">
+                    <div class="content">
+                        <div class="card">
+                            <div class="img">
+                                <img src="images/collections/Grey Princess Tree.webp">
+                            </div>
+                            <div style="padding-left: 2%;">
+                                <h4>Grey Princess Tree</h4>
+                                <h5 style="color: #666;">Out of stock</h5>
+                            </div>
+                            <a type="button" class="btn btn-warning" href="grey_princess_tree.html">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column colors">
+                    <div class="content">
+                        <div class="card">
+                            <div class="img">
+                                <img src="images/collections/Green Princess Tree.webp">
+                            </div>
+                            <div style="padding-left: 2%;">
+                                <h4>Green Princess Tree</h4>
+                                <h5 style="color: #666;">Out of stock</h5>
+                            </div>
+                            <a type="button" class="btn btn-warning" href="green_princess_tree.html">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column colors">
+                    <div class="content">
+                        <div class="card">
+                            <div class="img">
+                                <img src="images/collections/White Princess Tree.webp">
+                            </div>
+                            <div style="padding-left: 2%;">
+                                <h4>White Princess Tree</h4>
+                                <h5 style="color: #666;">Out of stock</h5>
+                            </div>
+                            <a type="button" class="btn btn-warning" href="white_princess_tree.html">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column colors">
+                    <div class="content">
+                        <div class="card">
+                            <div class="img">
+                                <img src="images/collections/Aqua Princess Tree.webp">
+                            </div>
+                            <div style="padding-left: 2%;">
+                                <h4>Aqua Princess Tree</h4>
+                                <h5 style="color: #666;">Out of stock</h5>
+                            </div>
+                            <a type="button" class="btn btn-warning" href="aqua_princess_tree.html">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column design">
+                    <div class="content">
+                        <div class="card">
+                            <div class="img">
+                                <img src="images/collections/Tiger Pine Bricks.webp">
+                            </div>
+                            <div style="padding-left: 2%;">
+                                <h4>Tiger Pine Bricks</h4>
+                                <h5 style="color: #666;">Out of stock</h5>
+                            </div>
+                            <a type="button" class="btn btn-warning" href="tiger_pine_bricks.html">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column design">
+                    <div class="content">
+                        <div class="card">
+                            <div class="img">
+                                <img src="images/collections/Old Grey Pine Bricks.webp">
+                            </div>
+                            <div style="padding-left: 2%;">
+                                <h4>Old Grey Pine Bricks</h4>
+                                <h5 style="color: #666;">Out of stock</h5>
+                            </div>
+                            <a type="button" class="btn btn-warning" href="old_grey_pine_bricks.html">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column design">
+                    <div class="content">
+                        <div class="card">
+                            <div class="img">
+                                <img src="images/collections/Night Pine Bricks.webp">
+                            </div>
+                            <div style="padding-left: 2%;">
+                                <h4>Night Pine Bricks</h4>
+                                <h5 style="color: #666;">Out of stock</h5>
+                            </div>
+                            <a type="button" class="btn btn-warning" href="night_pine_bricks.html">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column design">
+                    <div class="content">
+                        <div class="card">
+                            <div class="img">
+                                <img src="images/collections/Dark Night Pine Bricks.webp">
+                            </div>
+                            <div style="padding-left: 2%;">
+                                <h4>Dark Night Pine Bricks</h4>
+                                <h5 style="color: #666;">Out of stock</h5>
+                            </div>
+                            <a type="button" class="btn btn-warning" href="dark_night_pine_bricks.html">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column design">
+                    <div class="content">
+                        <div class="card">
+                            <div class="img">
+                                <img src="images/collections/Zebra Pine Bricks.webp">
+                            </div>
+                            <div style="padding-left: 2%;">
+                                <h4>Zebra Pine Bricks</h4>
+                                <h5 style="color: #666;">Out of stock</h5>
+                            </div>
+                            <a type="button" class="btn btn-warning" href="zebra_pine_bricks.html">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column design">
+                    <div class="content">
+                        <div class="card">
+                            <div class="img">
+                                <img src="images/collections/Strips.webp">
+                            </div>
+                            <div style="padding-left: 2%;">
+                                <h4>Strips</h4>
+                                <h5 style="color: #666;">Out of stock</h5>
+                            </div>
+                            <a type="button" class="btn btn-warning" href="strips.html">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column design">
+                    <div class="content">
+                        <div class="card">
+                            <div class="img">
+                                <img src="images/collections/Lines.webp">
+                            </div>
+                            <div style="padding-left: 2%;">
+                                <h4>Lines</h4>
+                                <h5 style="color: #666;">Out of stock</h5>
+                            </div>
+                            <a type="button" class="btn btn-warning" href="lines.html">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column pure">
+                    <div class="content">
+                        <div class="card">
+                            <div class="img">
+                                <img src="images/collections/Laurel Ayui.webp">
+                            </div>
+                            <div style="padding-left: 2%;">
+                                <h4>Laurel Ayui</h4>
+                                <h5 style="color: #666;">Out of stock</h5>
+                            </div>
+                            <a type="button" class="btn btn-warning" href="laurel_ayui.html">
+                                Read More
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="column pure">
+                    <div class="content">
+                        <div class="card">
+                            <div class="img">
+                                <img src="images/collections/Guayacan.webp">
+                            </div>
+                            <div style="padding-left: 2%;">
+                                <h4>Guayacan</h4>
+                               <h5 style="color: #666;">Out of stock</h5>
+                            </div>
+                            <a type="button" class="btn btn-warning" href="guayacan.html">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column pure">
+                    <div class="content">
+                        <div class="card">
+                            <div class="img">
+                                <img src="images/collections/Green Acacia.webp">
+                            </div>
+                            <div style="padding-left: 2%;">
+                                <h4>Green Acacia</h4>
+                                <h5 style="color: #666;">Out of stock</h5>
+                            </div>
+                            <a type="button" class="btn btn-warning" href="green_acacia.html">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column pure">
+                    <div class="content">
+                        <div class="card">
+                            <div class="img">
+                                <img src="images/collections/Grapia.webp">
+                            </div>
+                            <div style="padding-left: 2%;">
+                                <h4">Grapia</h4>
+                                <h5 style="color: #666;">Out of stock</h5>
+                            </div>
+                            <a type="button" class="btn btn-warning" href="grapia.html">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column pure">
+                    <div class="content">
+                        <div class="card">
+                            <div class="img">
+                                <img src="images/collections/Broad Leaf Privet.webp">
+                            </div>
+                            <div style="padding-left: 2%;">
+                                <h4>Broad Leaf Privet</h4>
+                                <h5 style="color: #666;">Out of stock</h5>
+                            </div>
+                            <a type="button" class="btn btn-warning" href="broad_leaf_privet.html">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="column pure">
+                        <div class="content">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="images/collections/Acacia.webp">
+                                </div>
+                                <div style="padding-left: 2%;">
+                                    <h4>Acacia</h4>
+                                   <h5 style="color: #666;">Out of stock</h5> 
+                                </div>
+                                <a type="button" class="btn btn-warning" href="acacia.html">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column pure">
+                        <div class="content">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="images/collections/Lapacho.webp">
+                                </div>
+                                <div style="padding-left: 2%;">
+                                    <h4>Lapacho</h4>
+                                    <h5 style="color: #666;">Out of stock</h5>
+                                </div>
+                                <a type="button" class="btn btn-warning" href="lapacho.html">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column pure">
+                        <div class="content">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="images/collections/Cedar.webp">
+                                </div>
+                                <div style="padding-left: 2%;">
+                                    <h4>Cedar</h4>
+                                    <h5 style="color: #666;">Out of stock</h5>
+                                </div>
+                                <a type="button" class="btn btn-warning" href="cedar.html">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column pure">
+                        <div class="content">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="images/collections/Red Eucaliptus.webp">
+                                </div>
+                                <div style="padding-left: 2%;">
+                                    <h4>Red Eucaliptus</h4>
+                                    <h5 style="color: #666;">Out of stock</h5>
+                                </div>
+                                <a type="button" class="btn btn-warning" href="red_eucaliptus.html">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column pure">
+                        <div class="content">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="images/collections/Fireland Cherry.webp">
+                                </div>
+                                <div style="padding-left: 2%;">
+                                    <h4>Fireland Cherry</h4>
+                                    <h5 style="color: #666;">Out of stock</h5>
+                                </div>
+                                <a type="button" class="btn btn-warning" href="fireland_cherry.html">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column pure">
+                        <div class="content">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="images/collections/Princess Tree.webp">
+                                </div>
+                                <div style="padding-left: 2%;">
+                                    <h4>Princess Tree</h4>
+                                    <h5 style="color: #666;">Out of stock</h5>
+                                </div>
+                                <a type="button" class="btn btn-warning" href="princess_tree.html">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column pure">
+                        <div class="content">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="images/collections/Guayubira.webp">
+                                </div>
+                                <div style="padding-left: 2%;">
+                                    <h4>Guayubira</h4>
+                                    <h5 style="color: #666;">Out of stock</h5>
+                                </div>
+                                <a type="button" class="btn btn-warning" href="Guayubira.html">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column pine">
+                        <div class="content">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="images/collections/Old Grey Pine.webp">
+                                </div>
+                                <div style="padding-left: 2%;">
+                                    <h4>Old Grey Pine</h4>
+                                    <h5 style="color: #666;">Out of stock</h5>
+                                </div>
+                                <a type="button" class="btn btn-warning" href="old_grey_pine.html">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column pine">
+                        <div class="content">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="images/collections/Night Pine.webp">
+                                </div>
+                                <div style="padding-left: 2%;">
+                                    <h4>Night Pine</h4>
+                                    <h5 style="color: #666;">Out of stock</h5>
+                                </div>
+                                <a type="button" class="btn btn-warning" href="night_pine.html">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column pine">
+                        <div class="content">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="images/collections/Dark Night Pine.webp">
+                                </div>
+                                <div style="padding-left: 2%;">
+                                    <h4>Dark Night Pine</h4>
+                                    <h5 style="color: #666;">Out of stock</h5>
+                                </div>
+                                <a type="button" class="btn btn-warning" href="dark_night_pine.html">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column pine">
+                        <div class="content">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="images/collections/Zebra Pine.webp">
+                                </div>
+                                <div style="padding-left: 2%;">
+                                    <h4>Zebra Pine</h4>
+                                   <h5 style="color: #666;">Out of stock</h5>
+                                </div>
+                                <a type="button" class="btn btn-warning" href="zebra_pine.html">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column pine">
+                        <div class="content">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="images/collections/Tiger Pine Bricks.webp">
+                                </div>
+                                <div style="padding-left: 2%;">
+                                    <h4>Tiger Pine Bricks</h4>
+                                   <h5 style="color: #666;">Out of stock</h5>
+                                </div>
+                                <a type="button" class="btn btn-warning" href="tiger_pine_bricks.html">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column pine">
+                        <div class="content">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="images/collections/Old Grey Pine Bricks.webp">
+                                </div>
+                                <div style="padding-left: 2%;">
+                                    <h4>Old Grey Pine Bricks</h4>
+                                    <h5 style="color: #666;">Out of stock</h5>
+                                </div>
+                                <a type="button" class="btn btn-warning" href="old_grey_pine_bricks.html">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column pine">
+                        <div class="content">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="images/collections/Night Pine Bricks.webp">
+                                </div>
+                                <div style="padding-left: 2%;">
+                                    <h4>Night Pine Bricks</h4>
+                                    <h5 style="color: #666;">Out of stock</h5>
+                                </div>
+                                <a type="button" class="btn btn-warning" href="night_pine_bricks.html">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column pine">
+                        <div class="content">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="images/collections/Dark Night Pine Bricks.webp">
+                                </div>
+                                <div style="padding-left: 2%;">
+                                    <h4>Dark Night Pine Bricks</h4>
+                                    <h5 style="color: #666;">Out of stock</h5>
+                                </div>
+                                <a type="button" class="btn btn-warning" href="dark_night_pine_bricks.html">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column pine">
+                        <div class="content">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="images/collections/Zebra Pine Bricks.webp">
+                                </div>
+                                <div style="padding-left: 2%;">
+                                    <h4>Zebra Pine Bricks</h4>
+                                    <h5 style="color: #666;">Out of stock</h5>
+                                </div>
+                                <a type="button" class="btn btn-warning" href="zebra_pine_bricks.html">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column samples">
+                        <div class="content">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="images/pink.png">
+                                </div>
+                                <div style="padding-left: 2%;">
+                                    <h4>Samples</h4>
+                                    <h5 style="color: #666;">Out of stock</h5>
+                                </div>
+                                <a type="button" class="btn btn-warning" href="samples_box.html">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END GRID -->
+            </div>
         </section>
-        <!-- -->
-
-
 
         <!--==========================
       Footer

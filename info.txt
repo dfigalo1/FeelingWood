@@ -7,7 +7,6 @@ Home, Products (con todos los subpaginas), About Us, FAQ, Contact, Your privacy,
 
 Esta todo falta Responsive
 
-Shop lo termino el Lunes
 
-Falta Carrito y Log in
+Falta Shop, Carrito y Log in
 
